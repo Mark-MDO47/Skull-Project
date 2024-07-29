@@ -25,6 +25,7 @@ As seen in the parts list, I chose a plastic skull for the project. The size is 
 ### Eyeball - Hallowing M4 Express
 [Top](#skull\-project "Top")<br>
 The Hallowing M4 Express is amazing! It makes so many different eyeballs available and they are all beautiful!
+- https://learn.adafruit.com/adafruit-hallowing-m4 - for details on this
 
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
