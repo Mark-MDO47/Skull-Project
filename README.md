@@ -10,7 +10,7 @@ Halloween skull with displayed eye and person sensor
 * [Parts List](#parts-list "Parts List")
 
 ## Idea
-[Top](#skull\-project "Top")
+[Top](#skull\-project "Top")<br>
 Kudos to Adafruit for their continuing work on the "Uncanny Eyes" project and specifically their "All Seeing Skull" project:
 - https://learn.adafruit.com/hallowing-all-seeing-skull
 - https://learn.adafruit.com/animated-electronic-eyes
@@ -19,17 +19,17 @@ I am making a build of the hallowing-all-seeing-skull using the Hallowing M4 Exp
 - To provide the "milky eye" effect for the RCWL-0516, I will make a "radome" out of a ping-pong ball.
 
 ### Skull
-[Top](#skull\-project "Top")
+[Top](#skull\-project "Top")<br>
 As seen in the parts list, I chose a plastic skull for the project. The size is pretty good; a bit of a tight fit for the HalloWing, but it still looks quite good in practice.
 
 ### Eyeball - Hallowing M4 Express
-[Top](#skull\-project "Top")
+[Top](#skull\-project "Top")<br>
 The Hallowing M4 Express is amazing! It makes so many different eyeballs available and they are all beautiful!
 
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
 ### Doppler Radar - RCWL-0516
-[Top](#skull\-project "Top")
+[Top](#skull\-project "Top")<br>
 This is my first attempt at using the RCWL-0516. Electrically it is incredibly easy - it accepts a wide range of power voltages and generates a simple long-lasting pulse if it sees motion.
 
 It checks for motion (generates a radar pulse) about once every two seconds. This can be adjusted (I did not choose to do this) to take longer between checks but no provision is made to make it check more often.
@@ -37,8 +37,7 @@ It checks for motion (generates a radar pulse) about once every two seconds. Thi
 It looks like it will fit nicely in the ping-pong ball. It sticks out a little but that makes it easy to attach the wires.
 
 ## Parts List
-[Top](#skull\-project "Top")
-
+[Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
 | plastic skull | MAGICLULU 1Pcs Table Top Skeleton Head Skull Head Model Simulation Skeleton Head Life Size Skeleton Skull for Halloween Décor | https://www.amazon.com/dp/B0C777NBDJ | $13 |
