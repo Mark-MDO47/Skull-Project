@@ -1,6 +1,8 @@
 # Skull-Project
 Halloween skull with displayed eye and person sensor
 
+<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_first_light.jpg" width="200" alt="Image of skull project first time Hallowing is inserted">
+
 **Table Of Contents**
 * [Top](#skull\-project "Top")
 * [Idea](#idea "Idea")
