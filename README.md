@@ -33,6 +33,10 @@ As seen in the parts list, you can get some very nice fitted lenses to make the 
 [Top](#skull\-project "Top")<br>
 This is my first attempt at using the RCWL-0516. Electrically it is incredibly easy - it accepts a wide range of power voltages and generates a simple long-lasting pulse if it sees motion.
 
+There is a great deal of information on this module from these sources:
+- https://www.instructables.com/All-About-RCWL-0516-Microwave-Radar-Motion-Sensor/
+- https://github.com/jdesbonnet/RCWL-0516
+
 It checks for motion (generates a radar pulse) about once every two seconds. This can be adjusted (I did not choose to do this) to take longer between checks but no provision is made to make it check more often.
 
 It looks like it will fit nicely in the ping-pong ball. It sticks out a little but that makes it easy to attach the wires.
