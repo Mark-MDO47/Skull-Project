@@ -3,6 +3,10 @@ Halloween skull with displayed eye and person sensor
 
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_first_light.jpg" width="200" alt="Image of skull project first time Hallowing is inserted">
 
+<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_RCWL-0516_and_radome.jpg" width="200" alt="Image of skull project RCWL-0516 and it's ping-pong radome">
+
+<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_RCWL-0516_test_trace_5secperdiv.jpg" width="200" alt="Image of skull project RCWL-0516 test at 5 seconds per division">
+
 **Table Of Contents**
 * [Top](#skull\-project "Top")
 * [Idea](#idea "Idea")
