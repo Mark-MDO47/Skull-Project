@@ -12,7 +12,7 @@ Things to remember:
 | https://github.com/jdesbonnet/RCWL-0516/issues/59 | --used-- ceramic 1uF, but more is better. If you have problems and the space put both an electrolytic (10uF?) and ceramic. |
 | https://github.com/jdesbonnet/RCWL-0516/issues/63 | --used-- 10uf electrolytic followed by a ferrite bead and then a 100pf ceramic capacitor on the 5v feed to create a low pass filter over a wide bandwidth. |
 
-Also this investigation documented here:
+Also this investigation documented an unusual behavior here:
 - https://github.com/jdesbonnet/RCWL-0516/issues/63
 - In other words: although there's constant movement i can see a decline in the maximum pulsewidth on the output which finally falls slightly below the calculated value of Tx which is around 2.4 seconds (see this picture within this repository for calulation and definitions). After that the sensor becomes "blind" for a slightly variable amount of time (somewhere between 30s and one minute) and returns back with reduced or full sensitivity* (did not find a clear timing pattern here). At the same time the pulsewidths on the output are declining, I can observe a slight decline in Tiwhich should be around 2.4 s as well.
 *I do not observe a reduced sensitivity in terms of range, but in therms of the maximum duration of the activitiy "pulse" on the output. The maximum "initial" pulsewidth I get is around 6-8 seconds with continuous movements.
