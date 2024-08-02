@@ -39,6 +39,8 @@ As seen in the parts list, you can get some very nice fitted lenses to make the 
 [Top](#skull\-project "Top")<br>
 This is my first attempt at using the RCWL-0516. Electrically it is incredibly easy - it accepts a wide range of power voltages and generates a simple long-lasting pulse if it sees motion.
 
+According to reports, it radiates at a frequency of about 3.2 GHz, which is between two popular WiFi frequencies of 2.4 GHz and 5 GHz.
+
 There is a great deal of information on this module from these sources:
 - https://www.instructables.com/All-About-RCWL-0516-Microwave-Radar-Motion-Sensor/
 - https://github.com/jdesbonnet/RCWL-0516
