@@ -14,6 +14,7 @@ Things to remember:
 
 | Source | Info |
 | --- | --- |
+| https://github.com/jdesbonnet/RCWL-0516/blob/master/README.md | --frequency-- found the signal at 3.181GHz |
 | https://github.com/jdesbonnet/RCWL-0516/issues/68 | --measured-- 70-80mA at 5V |
 | https://github.com/jdesbonnet/RCWL-0516/issues/59 | --used-- ceramic 1uF, but more is better. If you have problems and the space put both an electrolytic (10uF?) and ceramic. |
 | https://github.com/jdesbonnet/RCWL-0516/issues/63 | --used-- 10uf electrolytic followed by a ferrite bead and then a 100pf ceramic capacitor on the 5v feed to create a low pass filter over a wide bandwidth. |
