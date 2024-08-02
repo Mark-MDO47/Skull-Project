@@ -1,11 +1,17 @@
 # RCWL-0516 Investigation
 
+**Table Of Contents**
+* [Top](#rcwl\-0516-investigation "Top")
+* [Sources of Information](#sources-of-information "Sources of Information")
+
 Things to remember:
 - power consumption
 - no metal in front or back within 1 cm
 - maybe good to use bypass capacitors
 
 ## Sources of Information
+[Top](#rcwl\-0516-investigation "Top")<br>
+
 | Source | Info |
 | --- | --- |
 | https://github.com/jdesbonnet/RCWL-0516/issues/68 | --measured-- 70-80mA at 5V |
