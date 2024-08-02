@@ -43,6 +43,9 @@ There is a great deal of information on this module from these sources:
 - https://www.instructables.com/All-About-RCWL-0516-Microwave-Radar-Motion-Sensor/
 - https://github.com/jdesbonnet/RCWL-0516
 
+After some experiments and reading, I think I need to do more investigation before committing to this chip. See my progress here:
+- https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md
+
 It checks for motion (generates a radar pulse) about once every two seconds. This can be adjusted (I did not choose to do this) to take longer between checks but no provision is made to make it check more often.
 
 It looks like it will fit nicely in the ping-pong ball. It sticks out a little but that makes it easy to attach the wires.
