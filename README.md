@@ -35,6 +35,8 @@ The Hallowing M4 Express is amazing! It makes so many different eyeballs availab
 
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
+If using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
+
 ### Doppler Radar - RCWL-0516
 [Top](#skull\-project "Top")<br>
 This is my first attempt at using the RCWL-0516. Electrically it is incredibly easy - it accepts a wide range of power voltages and generates a simple long-lasting pulse if it sees motion.
