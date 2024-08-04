@@ -8,8 +8,10 @@ Halloween skull with displayed eye and person sensor
 * [Idea](#idea "Idea")
   * [Skull](#skull "Skull")
   * [Eyeball - Hallowing M4 Express](#eyeball-\--hallowing-m4-express "Eyeball - Hallowing M4 Express")
-  * [Doppler Radar - RCWL-0516](#doppler-radar-\--rcwl\-0516 "Doppler Radar - RCWL-0516")
+* [PIR sensor](#pir-sensor "PIR sensor")
 * [Parts List](#parts-list "Parts List")
+* [Not Using for This project](#not-using-for-this-project "Not Using for This project")
+  * [Not Using Doppler Radar - RCWL-0516](#not-using-doppler-radar-\--rcwl\-0516 "Not Using Doppler Radar - RCWL-0516")
 
 ## Idea
 [Top](#skull\-project "Top")<br>
