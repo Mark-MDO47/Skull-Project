@@ -11,6 +11,10 @@ This doesn't seem to work well outdoors. Some reports say it is due to wind, oth
 
 Since I want to use this outdoors, this does not make sense for this project. Maybe for an inside sensor.
 
+| Title | Descrip | URL | each |
+| --- | --- | --- | --- |
+| Doppler Radar RCWL | 10Pcs RCWL-0516 Microwave Induction Module Microwave Radar Sensor Intelligent Induction Switch Module Human Detection Sensor<br>**input**: 4V-28V @ 2.8mA~3mA<br>**output**: 3.2V-3.4V (Typ 3.3V) w/drive 100mA | https://www.amazon.com/gp/product/B0CB3ZPJJH | $0.80 |
+
 ## Sources of Information
 [Top](#rcwl\-0516-investigation "Top")<br>
 
