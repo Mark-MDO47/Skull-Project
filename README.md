@@ -47,6 +47,7 @@ There is a great deal of information on this module from these sources:
 - https://www.instructables.com/All-About-RCWL-0516-Microwave-Radar-Motion-Sensor/
 - https://www.rogerclark.net/investigating-a-rcwl-9196-rcwl-0516-radar-motion-detector-modules/
 - https://github.com/jdesbonnet/RCWL-0516
+- https://www.snapeda.com/parts/rcwl-9196/RCWL/datasheet/
 
 After some experiments and reading, I think I need to do more investigation before committing to this chip. See my progress here:
 - https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md
