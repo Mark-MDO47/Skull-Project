@@ -3,10 +3,6 @@ Halloween skull with displayed eye and person sensor
 
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_first_light.jpg" width="200" alt="Image of skull project first time Hallowing is inserted">
 
-<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_RCWL-0516_and_radome.jpg" width="200" alt="Image of skull project RCWL-0516 and it's ping-pong radome">
-
-<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_RCWL-0516_test_trace_5secperdiv.jpg" width="200" alt="Image of skull project RCWL-0516 test at 5 seconds per division">
-
 **Table Of Contents**
 * [Top](#skull\-project "Top")
 * [Idea](#idea "Idea")
@@ -50,7 +46,6 @@ If using the USB Micro-B connector to power the Hallowing, leave the ID and data
 | small LI battery | Lithium Ion Polymer Battery Ideal For Feathers - 3.7V 400mAh | https://www.adafruit.com/product/3898 | $7 |
 | Batteries | 4 Pack 3.7 Volt Button Top Rechargeable Batteries and 18650 Battery Charger,Lithium Battery 4000mAh (Battery and Charger) | https://www.amazon.com/gp/product/B0CP6V26QX | $25 |
 | Battery Holder | 5pcs 18650 Battery Holder 2 Slot 3.7V 18650 Battery Clip Holder Box Storage Case with Soldering Pin Copper Contacts | https://www.amazon.com/gp/product/B09LC13D9P | $2.60 |
-| Doppler Radar RCWL | 10Pcs RCWL-0516 Microwave Induction Module Microwave Radar Sensor Intelligent Induction Switch Module Human Detection Sensor<br>**input**: 4V-28V @ 2.8mA~3mA<br>**output**: 3.2V-3.4V (Typ 3.3V) w/drive 100mA | https://www.amazon.com/gp/product/B0CB3ZPJJH | $0.80 |
 | Micro-B Male | 20PCS Micro USB Male Port Connector 5 Pin USB Connectors Straight Jack Solder Micro-USB Repair Replacement Adapter | https://www.amazon.com/dp/B08SL1QHL3 | $0.40 |
 
 
