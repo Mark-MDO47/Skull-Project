@@ -12,6 +12,14 @@ Things to remember:
 ## Sources of Information
 [Top](#rcwl\-0516-investigation "Top")<br>
 
+There is a great deal of information on this module from these sources:
+
+https://www.instructables.com/All-About-RCWL-0516-Microwave-Radar-Motion-Sensor/
+https://www.rogerclark.net/investigating-a-rcwl-9196-rcwl-0516-radar-motion-detector-modules/
+https://github.com/jdesbonnet/RCWL-0516
+https://www.dreamgreenhouse.com/reviews/sensors/RCWL0516.php
+https://www.snapeda.com/parts/rcwl-9196/RCWL/datasheet/
+
 | Source | Info |
 | --- | --- |
 | https://github.com/jdesbonnet/RCWL-0516/blob/master/README.md | --frequency-- found the signal at 3.181GHz |
