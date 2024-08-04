@@ -4,21 +4,38 @@
 * [Top](#rcwl\-0516-investigation "Top")
 * [Sources of Information](#sources-of-information "Sources of Information")
 
+# Bottom Line - Not Using It
+[Top](#rcwl\-0516-investigation "Top")<br>
+
+This doesn't seem to work well outdoors. Some reports say it is due to wind, others say it needs lots of reflections to operate.
+
+Since I want to use this outdoors, this does not make sense for this project. Maybe for an inside sensor.
+
+## Sources of Information
+[Top](#rcwl\-0516-investigation "Top")<br>
+
 Things to remember:
 - power consumption
 - no metal in front or back within 1 cm
 - maybe good to use bypass capacitors
 
-## Sources of Information
-[Top](#rcwl\-0516-investigation "Top")<br>
+This is my first attempt at using the RCWL-0516. Electrically it is incredibly easy - it accepts a wide range of power voltages and generates a simple long-lasting pulse if it sees motion.
+
+According to reports, it radiates at a frequency of about 3.2 GHz, which is between two popular WiFi frequencies of 2.4 GHz and 5 GHz.
 
 There is a great deal of information on this module from these sources:
+- https://www.instructables.com/All-About-RCWL-0516-Microwave-Radar-Motion-Sensor/
+- https://www.rogerclark.net/investigating-a-rcwl-9196-rcwl-0516-radar-motion-detector-modules/
+- https://github.com/jdesbonnet/RCWL-0516
+- https://www.dreamgreenhouse.com/reviews/sensors/RCWL0516.php
+- https://www.snapeda.com/parts/rcwl-9196/RCWL/datasheet/
 
-https://www.instructables.com/All-About-RCWL-0516-Microwave-Radar-Motion-Sensor/
-https://www.rogerclark.net/investigating-a-rcwl-9196-rcwl-0516-radar-motion-detector-modules/
-https://github.com/jdesbonnet/RCWL-0516
-https://www.dreamgreenhouse.com/reviews/sensors/RCWL0516.php
-https://www.snapeda.com/parts/rcwl-9196/RCWL/datasheet/
+After some experiments and reading, I think I need to do more investigation before committing to this chip. See my progress here:
+- https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md
+
+It checks for motion (generates a radar pulse) about once every two seconds. This can be adjusted (I did not choose to do this) to take longer between checks but no provision is made to make it check more often.
+
+It looks like it will fit nicely in the ping-pong ball. It sticks out a little but that makes it easy to attach the wires.
 
 | Source | Info |
 | --- | --- |
