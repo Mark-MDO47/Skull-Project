@@ -35,7 +35,7 @@ As seen in the parts list, you can get some very nice fitted lenses to make the 
 
 If using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
 
-## PIR sensor
+### PIR sensor
 [Top](#skull\-project "Top")<br>
 Will be using a PIR sensor instead of the radar sensor. Probably the one shown in the parts list.
 
