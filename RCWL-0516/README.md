@@ -59,3 +59,4 @@ The way I read Issue 63 and its timeline figure indicates that for continuous mo
 
 This wouldn't be a deal breaker for this project but is not desirable. I will need to test my modules.
 
+The reason I won't be using it has to do with its behavior outside - it doesn't seem to operate as well when the signal can just dissipate into the distance.
