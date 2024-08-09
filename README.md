@@ -37,7 +37,13 @@ If using the USB Micro-B connector to power the Hallowing, leave the ID and data
 
 ## PIR sensor
 [Top](#skull\-project "Top")<br>
-Will be using a PIR sensor instead of the radar sensor. TBD
+Will be using a PIR sensor instead of the radar sensor. Probably the one shown in the parts list.
+
+It turns out that the plastic cover is actually a fresnel lens for infrared and not just protection or decoration. This unit has a lens of a size that should fit well in the skull eye-socket.
+
+Also I think the version I ordered has a potentiometer adjustment for sensitivity which might come in handy.
+
+This one uses 3.xV power so I may need to rethink my idea for how to power the project. I could go with 7.4V to a UBEC to 5V through the USB into the Hallowing and then use the 3.3V output for the PIR sensor. Alternatively I could power both Hallowing and sensor directly from the 3.7V batteries in parallel.
 
 ## Parts List
 [Top](#skull\-project "Top")<br>
@@ -51,6 +57,7 @@ Will be using a PIR sensor instead of the radar sensor. TBD
 | Batteries | 4 Pack 3.7 Volt Button Top Rechargeable Batteries and 18650 Battery Charger,Lithium Battery 4000mAh (Battery and Charger) | https://www.amazon.com/gp/product/B0CP6V26QX | $25 |
 | Battery Holder | 5pcs 18650 Battery Holder 2 Slot 3.7V 18650 Battery Clip Holder Box Storage Case with Soldering Pin Copper Contacts | https://www.amazon.com/gp/product/B09LC13D9P | $2.60 |
 | Micro-B Male | 20PCS Micro USB Male Port Connector 5 Pin USB Connectors Straight Jack Solder Micro-USB Repair Replacement Adapter | https://www.amazon.com/dp/B08SL1QHL3 | $0.40 |
+| PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
 
 
 ## Not Using for This project
