@@ -17,6 +17,7 @@ Halloween skull with displayed eye and person sensor
 [Top](#skull\-project "Top")<br>
 Kudos to Adafruit for their continuing work on the "Uncanny Eyes" project and specifically their "All Seeing Skull" project:
 - https://learn.adafruit.com/hallowing-all-seeing-skull
+  - https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/main/All_Seeing_Skull
 - https://learn.adafruit.com/animated-electronic-eyes
 
 I am making a build of the hallowing-all-seeing-skull using the Hallowing M4 Express but substituting the **RCWL-0516** Doppler Radar for the PIR Sensor.
