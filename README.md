@@ -35,6 +35,7 @@ The Hallowing M4 Express is amazing! It makes so many different eyeballs availab
 - https://learn.adafruit.com/adafruit-hallowing-m4/pinouts - pinout
   - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf - pinout
 - https://learn.adafruit.com/assets/81144 - schematic
+- https://circuitpython.org/board/hallowing_m4_express/ - for circuitPython info
 
 Yet More Documentation
 - http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf - Datasheet for ATSAMD51G18
@@ -48,6 +49,12 @@ Yet More Documentation
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
 If using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
+
+### Hallowing M0 Express
+[Top](#skull\-project "Top")<br>
+There is also an "M0" version with a lower resolution display, but still beautiful!
+- https://learn.adafruit.com/adafruit-hallowing
+- https://learn.adafruit.com/adafruit-hallowing/adapting-sketches-to-m0
 
 ### PIR sensor
 [Top](#skull\-project "Top")<br>
