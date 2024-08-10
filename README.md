@@ -20,8 +20,9 @@ Kudos to Adafruit for their continuing work on the "Uncanny Eyes" project and sp
   - https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/main/All_Seeing_Skull
 - https://learn.adafruit.com/animated-electronic-eyes
 
-I am making a build of the hallowing-all-seeing-skull using the Hallowing M4 Express but substituting the **RCWL-0516** Doppler Radar for the PIR Sensor.
-- To provide the "milky eye" effect for the RCWL-0516, I will make a "radome" out of a ping-pong ball.
+I am making a build of the hallowing-all-seeing-skull using the Hallowing M4 Express.
+- I was going to substitute the **RCWL-0516** Doppler Radar for the PIR Sensor but decided it wasn't a good choice for outdoor use.
+- see https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md if you are interested in the reasoning.
 
 ### Skull
 [Top](#skull\-project "Top")<br>
