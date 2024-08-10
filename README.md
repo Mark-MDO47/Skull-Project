@@ -30,6 +30,18 @@ As seen in the parts list, I chose a plastic skull for the project. The size is 
 [Top](#skull\-project "Top")<br>
 The Hallowing M4 Express is amazing! It makes so many different eyeballs available and they are all beautiful!
 - https://learn.adafruit.com/adafruit-hallowing-m4 - for details on this
+- https://learn.adafruit.com/adafruit-hallowing-m4/pinouts - pinout
+  - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf - pinout
+- https://learn.adafruit.com/assets/81144 - schematic
+
+Yet More Documentation
+- http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf - Datasheet for ATSAMD51G18
+- https://github.com/adafruit/Adafruit_MSA301/blob/master/MSA301-V1.0-ENG.PDF - Datasheet for MSA301 accelerometer
+- https://cdn-shop.adafruit.com/product-files/3787/3787_tft_QT154H2201__________20190228182902.pdf Datasheet for ST7789
+- https://github.com/adafruit/Adafruit-Hallowing-M4-PCB - EagleCAD files on GitHub
+- https://github.com/adafruit/Fritzing-Library/blob/master/parts/Adafruit%20Hallowing%20M4.fzpz 3D models on GitHub
+- https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf - Fritzing object in the Adafruit Fritzing Library
+- PDF for Hallowing M4 Board Diagram on GitHub
 
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
