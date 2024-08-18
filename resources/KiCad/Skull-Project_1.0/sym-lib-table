@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mdoLibrary")(type "KiCad")(uri "D:/github-Mark-MDO47/Skull-Project/resources/KiCad/mdoLibrary.kicad_sym")(options "")(descr ""))
+)
