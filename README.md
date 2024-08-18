@@ -68,6 +68,8 @@ Also I think the version I ordered has a potentiometer adjustment for sensitivit
 
 This one uses 3.xV power so I may need to rethink my idea for how to power the project. I could go with 7.4V to a UBEC to 5V through the USB into the Hallowing and then use the 3.3V output for the PIR sensor. Alternatively I could power both Hallowing and sensor directly from the 3.7V batteries in parallel.
 
+For now I decided to include the UBEC and 5V power. This makes it easier to later add more complex circuitry that might require 5V.
+
 ## Circuit
 [Top](#skull\-project "Top")<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0.png" width="600" alt="schematic of skull project version 1.0">
