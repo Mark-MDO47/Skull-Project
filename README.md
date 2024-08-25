@@ -85,7 +85,8 @@ My comments are included regarding use with the Hallowing M4.
 | DISPLAY_RESET | 37 | 46 | config.h | N/A |
 | MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | N/A |
 | BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
-| BACKLIGHT_ON_PIN | 5 | 5 | TBD | additional capability to add |
+| DISPLAY_FORCE_ON | 6 | 6 | TBD | additional capability to add |
+| DISPLAY_FORCE_ON_LED | 5 | 5 | TBD | additional capability to add |
 
 ## Parts List
 [Top](#skull\-project "Top")<br>
