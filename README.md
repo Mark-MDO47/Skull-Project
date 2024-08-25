@@ -52,7 +52,7 @@ As seen in the parts list, you can get some very nice fitted lenses to make the 
 
 If using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
 
-### Hallowing M0 Express
+### Eyeball - Hallowing M0 Express
 [Top](#skull\-project "Top")<br>
 There is also an "M0" version with a lower resolution display, but still beautiful!
 - https://learn.adafruit.com/adafruit-hallowing
@@ -73,6 +73,19 @@ For now I decided to include the UBEC and 5V power. This makes it easier to late
 ## Circuit
 [Top](#skull\-project "Top")<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0.png" width="600" alt="schematic of skull project version 1.0">
+
+The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the Hallowing M0.
+My comments are included regarding use with the Hallowing M4.
+
+| Pin Name | M0 | M4 | Definition | Comment |
+| --- | --- | --- | --- | --- |
+| eyeInfo[e].select | 39 | 44 | config.h | select pin for eye display |
+| eyeInfo[e].wink | -1 | -1 | config.h | not used with HalloWing |
+| DISPLAY_BACKLIGHT | 7 | 47 | config.h | N/A |
+| DISPLAY_RESET | 37 | 46 | config.h | N/A |
+| MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | N/A |
+| BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
+| BACKLIGHT_ON_PIN | 5 | 5 | TBD | additional capability to add |
 
 ## Parts List
 [Top](#skull\-project "Top")<br>
