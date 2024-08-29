@@ -66,9 +66,7 @@ It turns out that the plastic cover is actually a fresnel lens for infrared and 
 
 Also I think the version I ordered has a potentiometer adjustment for sensitivity which might come in handy.
 
-This one uses 3.xV power so I may need to rethink my idea for how to power the project. I could go with 7.4V to a UBEC to 5V through the USB into the Hallowing and then use the 3.3V output for the PIR sensor. Alternatively I could power both Hallowing and sensor directly from the 3.7V batteries in parallel.
-
-For now I decided to include the UBEC and 5V power. This makes it easier to later add more complex circuitry that might require 5V.
+This one uses 5V-to-12V power so I need to rethink my idea for how to power the project. I could go with 7.4V to a UBEC to 5V through the USB into the Hallowing; the M4 version (at least) will pass the 5V on through to the PIR.
 
 ## Circuit
 [Top](#skull\-project "Top")<br>
