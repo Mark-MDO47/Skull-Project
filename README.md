@@ -65,6 +65,17 @@ It turns out that the plastic cover is actually a fresnel lens for infrared and 
 
 The version I ordered has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
 
+## Software
+[Top](#skull\-project "Top")<br>
+See these for the code used in this project:
+| Descrip | URL |
+| --- | --- |
+| How to load/initialize the M4 | https://github.com/Mark-MDO47/expts_HallowingM4 |
+| Where I develop the M4 code, forked from AdaFruit | https://github.com/Mark-MDO47/mdo_m4_eyes/tree/master |
+| Teensy and M0 code, forked from AdaFruit | https://github.com/Mark-MDO47/Uncanny_Eyes |
+| How to expand with AI | https://github.com/Mark-MDO47/HalloweenEyes |
+
+
 ## Power
 [Top](#skull\-project "Top")<br>
 The PIR sensor uses 5V-to-12V power so I will go with 7.4V-8.0V Battery to a UBEC to 5V through the USB into the Hallowing; the M4 version (at least) will pass the 5V on through to the PIR.
