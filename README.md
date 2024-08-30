@@ -71,7 +71,7 @@ See these for the code used in this project:
 | Descrip | URL |
 | --- | --- |
 | How to load/initialize the M4 | https://github.com/Mark-MDO47/expts_HallowingM4 |
-| Where I develop the M4 code, forked from AdaFruit | https://github.com/Mark-MDO47/mdo_m4_eyes/tree/master |
+| Where I develop the M4 code, forked from AdaFruit | https://github.com/Mark-MDO47/mdo_m4_eyes |
 | Teensy and M0 code, forked from AdaFruit | https://github.com/Mark-MDO47/Uncanny_Eyes |
 | How to expand with AI | https://github.com/Mark-MDO47/HalloweenEyes |
 
