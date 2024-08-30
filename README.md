@@ -59,11 +59,11 @@ There is also an "M0" version with a lower resolution display, but still beautif
 
 ### PIR sensor
 [Top](#skull\-project "Top")<br>
-Will be using a PIR sensor instead of the radar sensor. Probably the one shown in the parts list.
+Will be using a PIR sensor instead of the radar sensor.
 
 It turns out that the plastic cover is actually a fresnel lens for infrared and not just protection or decoration. This unit has a lens of a size that should fit well in the skull eye-socket.
 
-Also I think the version I ordered has a potentiometer adjustment for sensitivity which might come in handy.
+The version I ordered has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
 
 ## Power
 [Top](#skull\-project "Top")<br>
