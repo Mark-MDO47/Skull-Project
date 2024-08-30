@@ -108,8 +108,8 @@ My comments are included regarding use with the Hallowing M4.
 | Battery Holder | 5pcs 18650 Battery Holder 2 Slot 3.7V 18650 Battery Clip Holder Box Storage Case with Soldering Pin Copper Contacts | https://www.amazon.com/gp/product/B09LC13D9P | $2.60 |
 | Micro-B Male | 20PCS Micro USB Male Port Connector 5 Pin USB Connectors Straight Jack Solder Micro-USB Repair Replacement Adapter | https://www.amazon.com/dp/B08SL1QHL3 | $0.40 |
 | PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
-| 3.3V-5V cvrtr | SN74HCT125N quadruple bus buffer | https://www.digikey.com/product-detail/en/texas-instruments/SN74HCT125N/296-8386-5-ND/376860 | $0.25 |
 | latching push button | DaierTek Latching Push Button Switch with blue LED | https://www.amazon.com/dp/B097N7RBFP | $3 |
+| 0.25W resistors | 330 and 10K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219 | $0.20 |
 
 
 ## Not Using for This project
