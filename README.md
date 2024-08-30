@@ -80,9 +80,11 @@ See these for the code used in this project:
 [Top](#skull\-project "Top")<br>
 The PIR sensor uses 5V-to-12V power so I will go with 7.4V-8.0V Battery to a UBEC to 5V through the USB into the Hallowing; the M4 version (at least) will pass the 5V on through to the PIR.
 
-The USB standard specifies a Vbus range of 4.75V to 5.25V. Measuring the output of my UBEC I see 5.6V.
+The USB standard specifies a Vbus range of 4.75V to 5.25V.
+- Measuring the output from plugged into PC I see 5.1V
+- Measuring the output of my UBEC I see 5.6V.
 With USB connected to a PC the measured voltage output from the sensor connector is 4.7V.
-With USB disonnected running from a fully powered LIPO battery the measured voltage output from the sensor connector is 4.1V and dropping.
+With USB disconnected running from a fully powered LIPO battery the measured voltage output from the sensor connector is 4.1V and dropping.
 
 The Adafruit documents say that when using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
 
