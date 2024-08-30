@@ -114,7 +114,8 @@ My comments are included regarding use with the Hallowing M4.
 | Micro-B Male | 20PCS Micro USB Male Port Connector 5 Pin USB Connectors Straight Jack Solder Micro-USB Repair Replacement Adapter | https://www.amazon.com/dp/B08SL1QHL3 | $0.40 |
 | PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
 | latching push button | DaierTek Latching Push Button Switch with blue LED | https://www.amazon.com/dp/B097N7RBFP | $3 |
-| 0.25W resistors | 330 and 10K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219 | $0.20 |
+| UBEC 5V 3A | 5V/6V Hobbywing 3A UBEC Max 5A |https://www.aliexpress.us/item/3256805502614547.html | $1.50 |
+| 0.25W resistors | 330 and 10K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219 | $0.10 |
 
 
 ## Not Using for This project
