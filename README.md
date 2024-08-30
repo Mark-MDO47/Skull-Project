@@ -51,8 +51,6 @@ Yet More Documentation
 
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
-If using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
-
 ### Eyeball - Hallowing M0 Express
 [Top](#skull\-project "Top")<br>
 There is also an "M0" version with a lower resolution display, but still beautiful!
@@ -74,6 +72,8 @@ The PIR sensor uses 5V-to-12V power so I will go with 7.4V-8.0V Battery to a UBE
 The USB standard specifies a Vbus range of 4.75V to 5.25V. Measuring the output of my UBEC I see 5.6V.
 With USB connected to a PC the measured voltage output from the sensor connector is 4.7V.
 With USB disonnected running from a fully powered LIPO battery the measured voltage output from the sensor connector is 4.1V and dropping.
+
+The Adafruit documents say that when using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
 
 The GND pin on the FeatherWing connector between AREF and A0 matches the GND pin on the sensor connector.
 The "GND" pin at the bottom of that connector below MISO/RX/TX is at a different potential about 3.5V from ground with USB connected ???.
