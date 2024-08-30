@@ -69,7 +69,7 @@ Also I think the version I ordered has a potentiometer adjustment for sensitivit
 
 ## Power
 [Top](#skull\-project "Top")<br>
-The PIR sensor uses 5V-to-12V power so I need to rethink my idea for how to power the project. I could go with 7.4V to a UBEC to 5V through the USB into the Hallowing; the M4 version (at least) will pass the 5V on through to the PIR.
+The PIR sensor uses 5V-to-12V power so I will go with 7.4V-8.0V Battery to a UBEC to 5V through the USB into the Hallowing; the M4 version (at least) will pass the 5V on through to the PIR.
 
 The USB standard specifies a Vbus range of 4.75V to 5.25V. Measuring the output of my UBEC I see 5.6V.
 With USB connected to a PC the measured voltage output from the sensor connector is 4.7V.
@@ -77,6 +77,10 @@ With USB disonnected running from a fully powered LIPO battery the measured volt
 
 The GND pin on the FeatherWing connector between AREF and A0 matches the GND pin on the sensor connector.
 The "GND" pin at the bottom of that connector below MISO/RX/TX is at a different potential about 3.5V from ground with USB connected ???.
+
+The LED on the latching button switch works with 3.3V I/O output even though the switch is rated at 12V - that simplifies things greatly!
+
+The PIR sensor will run succesfully with the HalloWing M4 powered by USB and the LIPO battery mostly charged.
 
 ## Circuit
 [Top](#skull\-project "Top")<br>
