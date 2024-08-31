@@ -10,6 +10,7 @@ Halloween skull with displayed eye and person sensor
   * [Eyeball - Hallowing M4 Express](#eyeball-\--hallowing-m4-express "Eyeball - Hallowing M4 Express")
   * [Eyeball - Hallowing M0 Express](#eyeball-\--hallowing-m0-express "Eyeball - Hallowing M0 Express")
   * [PIR sensor](#pir-sensor "PIR sensor")
+* [Software](#software "Software")
 * [Power](#power "Power")
 * [Circuit](#circuit "Circuit")
 * [Parts List](#parts-list "Parts List")
