@@ -91,7 +91,7 @@ The Adafruit documents say that when using the USB Micro-B connector to power th
 
 The GND pin on the FeatherWing connector between AREF and A0 matches the GND pin on the sensor connector.<br>
 
-There is a discrepency between the M4 pinouts diagram and the M4 schematic
+There is a discrepancy between the M4 pinouts diagram and the M4 schematic
 - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf
 - https://cdn-learn.adafruit.com/assets/assets/000/081/144/original/adafruit_products_Hallowing_M4_Schematic.png?1568924235
 
