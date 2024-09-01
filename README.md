@@ -89,8 +89,14 @@ With USB disconnected running from a fully powered LIPO battery the measured vol
 
 The Adafruit documents say that when using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
 
-The GND pin on the FeatherWing connector between AREF and A0 matches the GND pin on the sensor connector.
-The "GND" pin at the bottom of that connector below MISO/RX/TX is at a different potential about 3.5V from ground with USB connected ???.
+The GND pin on the FeatherWing connector between AREF and A0 matches the GND pin on the sensor connector.<br>
+
+There is a discrepency between the M4 pinouts diagram and the M4 schematic
+- https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf
+- https://cdn-learn.adafruit.com/assets/assets/000/081/144/original/adafruit_products_Hallowing_M4_Schematic.png?1568924235
+
+The **pinouts** "GND" pin at the bottom of that connector below MISO/RX/TX is marked on the **schematic** as D4 and NC.<br>
+I measured this pin at about 3.5V from ground with USB connected and displaying the eyeball with unchanged software. My theory is that it is **D4** but maybe connected instead of "no connect".
 
 The LED on the latching button switch works with 3.3V I/O output even though the switch is rated at 12V - that simplifies things greatly!
 
