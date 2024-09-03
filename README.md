@@ -115,10 +115,16 @@ My comments are included regarding use with the Hallowing M4.
 | eyeInfo[e].wink | -1 | -1 | config.h | not used with HalloWing |
 | DISPLAY_BACKLIGHT | 7 | 47 | config.h | N/A |
 | DISPLAY_RESET | 37 | 46 | config.h | N/A |
-| MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | N/A |
+| MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | turn on display backlight |
 | BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
-| DISPLAY_FORCE_ON | 6 | 6 | TBD | additional capability to add |
-| DISPLAY_FORCE_ON_LED | 5 | 5 | TBD | additional capability to add |
+
+The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes.
+
+| Pin Name | M0 | M4 | Definition | Comment |
+| --- | --- | --- | --- | --- |
+| MOTION_SENSOR_PIN | A11 | A8 | mdo_skull_project.cpp | sense when to turn on display backlight |
+| DISPLAY_FORCE_ON_LED | 5 | 5 | mdo_skull_project.cpp | output to button LED to say backlight forced on |
+| DISPLAY_FORCE_ON | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on |
 
 ## Parts List
 [Top](#skull\-project "Top")<br>
