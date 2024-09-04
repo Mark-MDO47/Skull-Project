@@ -6,7 +6,7 @@
 
   (title_block
     (title "Skull-Project 1.0")
-    (date "2024-09-03")
+    (date "2024-09-04")
     (rev "1.0")
     (company "github.com/Mark-MDO47/Skull-Project")
     (comment 1 "NOTE: Hallowing as from back (not display)")
@@ -547,7 +547,7 @@
     (stroke (width 0) (type default))
     (uuid 17c7cbe4-54d7-4e42-927e-a3df0711d393)
   )
-  (wire (pts (xy 245.11 114.3) (xy 245.11 143.51))
+  (wire (pts (xy 245.11 114.3) (xy 245.11 130.81))
     (stroke (width 0) (type default))
     (uuid 1b0c566e-b308-454f-9edd-8367f872d8b5)
   )
@@ -559,7 +559,7 @@
     (stroke (width 0) (type default))
     (uuid 329e7379-0e84-4670-8214-321c6a0281cf)
   )
-  (polyline (pts (xy 116.84 21.59) (xy 116.84 148.59))
+  (polyline (pts (xy 116.84 21.59) (xy 116.84 137.16))
     (stroke (width 0.5) (type dash))
     (uuid 33325cac-d4f9-484b-84e0-b499572d55af)
   )
@@ -576,7 +576,7 @@
     (stroke (width 0) (type default))
     (uuid 4f762c46-ae7a-45c5-be0c-1508d1be148a)
   )
-  (wire (pts (xy 102.87 77.47) (xy 102.87 143.51))
+  (wire (pts (xy 102.87 77.47) (xy 102.87 130.81))
     (stroke (width 0) (type default))
     (uuid 4fa1d2af-319c-4cd4-b1eb-66c0f4f4a377)
   )
@@ -664,7 +664,7 @@
     (stroke (width 0) (type default))
     (uuid c3395f73-ae21-42bd-9a5c-99db4b9b2092)
   )
-  (wire (pts (xy 245.11 143.51) (xy 102.87 143.51))
+  (wire (pts (xy 245.11 130.81) (xy 102.87 130.81))
     (stroke (width 0) (type default))
     (uuid cbed7383-b130-4206-b4b8-4d46c396f27a)
   )
@@ -699,7 +699,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 1b5f428d-8cf0-490f-8917-6bb3d5484ce8)
   )
-  (text "Blue" (at 146.05 142.24 0)
+  (text "Blue" (at 146.05 129.54 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 2cce375d-eb7e-40f3-8be2-bcadc78df0ce)
   )
@@ -715,8 +715,8 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 6cad7783-c7be-43f8-a187-7082bce1e958)
   )
-  (text "12 ft cable\n\nPower:  24 AWG stranded\nSignal: 30 AWG stranded"
-    (at 107.95 156.21 0)
+  (text "12 ft cable\n\nPower: 24 AWG stranded\nSignal: 30 AWG stranded"
+    (at 109.22 149.86 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 937fbd0a-2f2c-4604-aa6b-e24711235820)
   )
@@ -756,15 +756,15 @@
     (property "Datasheet" "" (at 220.98 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee50))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -789,10 +789,10 @@
     (property "Datasheet" "" (at 80.01 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f5896))
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f5896))
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f5896))
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f5896))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -843,8 +843,8 @@
     (property "Datasheet" "" (at 58.42 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822a8))
-    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822a8))
+    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822aa))
+    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822aa))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -895,8 +895,8 @@
     (property "Datasheet" "" (at 87.63 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eae))
-    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eae))
+    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eb0))
+    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eb0))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -973,9 +973,9 @@
     (property "Datasheet" "" (at 140.97 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f042))
-    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f042))
-    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f042))
+    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f046))
+    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f046))
+    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f046))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
