@@ -6,7 +6,7 @@
 
   (title_block
     (title "Skull-Project 1.0")
-    (date "2024-09-04")
+    (date "2024-09-05")
     (rev "1.0")
     (company "github.com/Mark-MDO47/Skull-Project")
     (comment 1 "NOTE: Hallowing as from back (not display)")
@@ -720,6 +720,11 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 937fbd0a-2f2c-4604-aa6b-e24711235820)
   )
+  (text "Do not solder UBEC or Switch\nuntil cable pulled through"
+    (at 105.41 50.8 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (uuid b5f6c991-bac0-4904-bc21-7fb2551d2ae4)
+  )
   (text "Open for\n   Eye\nAlways On" (at 20.32 68.58 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid bf9f2265-4e84-407d-a1ee-751ad0f98698)
@@ -756,15 +761,15 @@
     (property "Datasheet" "" (at 220.98 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
-    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee60))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
+    (pin "" (uuid 41ee4304-a360-4cb7-a424-a2fab667ee68))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -789,10 +794,10 @@
     (property "Datasheet" "" (at 80.01 34.29 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
-    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589c))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589f))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589f))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589f))
+    (pin "~" (uuid 4ef2e5c2-5889-4e4f-ad73-3b106a5f589f))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -843,8 +848,8 @@
     (property "Datasheet" "" (at 58.42 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822aa))
-    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822aa))
+    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822ab))
+    (pin "~" (uuid 1994eb00-95de-418b-9df2-a65cb18822ab))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -895,8 +900,8 @@
     (property "Datasheet" "" (at 87.63 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eb0))
-    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eb0))
+    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eb1))
+    (pin "~" (uuid ec48641e-894f-409b-a3bc-d9eb85809eb1))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
@@ -973,9 +978,9 @@
     (property "Datasheet" "" (at 140.97 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f046))
-    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f046))
-    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f046))
+    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f048))
+    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f048))
+    (pin "" (uuid c1273278-04f7-4345-ba7a-5d55ab89f048))
     (instances
       (project "Skull-Project_1.0"
         (path "/13d7b3b4-5d80-4b2f-98bb-c8334b3eaf59"
