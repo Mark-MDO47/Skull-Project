@@ -58,6 +58,8 @@ There is also an "M0" version with a lower resolution display, but still beautif
 - https://learn.adafruit.com/adafruit-hallowing
 - https://learn.adafruit.com/adafruit-hallowing/adapting-sketches-to-m0
 
+For this project I decided to just use the more capable M4 version, but left some information about the differences with the M0 in case I want to build another.
+
 ### PIR sensor
 [Top](#skull\-project "Top")<br>
 Will be using a PIR sensor instead of the radar sensor.
@@ -76,6 +78,7 @@ See these for the code used in this project:
 | Teensy and M0 code, forked from AdaFruit | https://github.com/Mark-MDO47/Uncanny_Eyes |
 | How to expand with AI | https://github.com/Mark-MDO47/HalloweenEyes |
 
+For this project I decided to just use the more capable Hallowing M4 version, but left some information about the differences with the M0 in case I want to build another.
 
 ## Power
 [Top](#skull\-project "Top")<br>
