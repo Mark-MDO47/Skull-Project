@@ -98,7 +98,7 @@ There is a discrepancy between the M4 pinouts diagram and the M4 schematic
 The **pinouts** "GND" pin at the bottom of that connector below MISO/RX/TX is marked on the **schematic** as D4 and NC.<br>
 I measured this pin at about 3.5V from ground with USB connected and displaying the eyeball with unchanged software. My theory is that it is **D4** but maybe connected instead of "no connect".
 
-The LED on the latching button switch works with 3.3V I/O output even though the switch is rated at 12V - that simplifies things greatly!
+The LED on the latching button switch works with 3.3V I/O output even though the switch is rated at 24V - that simplifies things greatly!
 
 The PIR sensor will run succesfully with the HalloWing M4 powered by USB and the LIPO battery mostly charged.
 
