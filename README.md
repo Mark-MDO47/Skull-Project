@@ -62,11 +62,11 @@ For this project I decided to just use the more capable M4 version, but left som
 
 ### PIR sensor
 [Top](#skull\-project "Top")<br>
-Will be using a PIR sensor instead of the radar sensor.
+Using the PIR sensor instead of the RCWL-0516 doppler radar sensor.
 
-It turns out that the plastic cover is actually a fresnel lens for infrared and not just protection or decoration. This unit has a lens of a size that should fit well in the skull eye-socket.
+It turns out that the plastic cover on the PIR sensor is actually a fresnel lens for infrared and not just protection or decoration. This unit has a lens of a size that should fit well in the skull eye-socket.
 
-The version I ordered has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
+It has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
 
 ## Software
 [Top](#skull\-project "Top")<br>
@@ -74,11 +74,13 @@ See these for the code used in this project:
 | Descrip | URL |
 | --- | --- |
 | How to load/initialize the M4 | https://github.com/Mark-MDO47/expts_HallowingM4 |
-| Where I develop the M4 code, forked from AdaFruit | https://github.com/Mark-MDO47/mdo_m4_eyes |
+| Where I develop the M4 code for this and other projects, forked from AdaFruit | https://github.com/Mark-MDO47/mdo_m4_eyes |
 | Teensy and M0 code, forked from AdaFruit | https://github.com/Mark-MDO47/Uncanny_Eyes |
 | How to expand with AI | https://github.com/Mark-MDO47/HalloweenEyes |
 
-For this project I decided to just use the more capable Hallowing M4 version, but left some information about the differences with the M0 in case I want to build another.
+For this project I decided to just use the more capable Hallowing M4 version (see **mdo_m4_eyes** above), but kept some information here about the differences with the M0 in case I want to build one with the M0.
+
+The software can use the PIR sensor to turn the eye backlight on when it detects movement. There is a pushbutton that can toggle between having the backlight always-on or having the backlight depend on the PIR sensor. This button has an LED that is lit when the mode is always-on.
 
 ## Power
 [Top](#skull\-project "Top")<br>
