@@ -39,6 +39,7 @@ The Hallowing M4 Express is amazing! It makes so many different eyeballs availab
 - https://learn.adafruit.com/adafruit-hallowing-m4/pinouts - pinout
   - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf - pinout
 - https://learn.adafruit.com/assets/81144 - schematic
+  - https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/Adafruit-HallowingM4_in_KiCad.pdf - my schematic translated thru KiCad 7.0
 - https://circuitpython.org/board/hallowing_m4_express/ - for circuitPython info
 
 Yet More Documentation
