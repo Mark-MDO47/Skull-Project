@@ -147,6 +147,7 @@ The following are the pins that I added to the M4 code in https://github.com/Mar
 | 7/16 washer | 7/16" Flat Washer, 18-8 (304) Stainless Steel Washers Flat, 7/16 inch Stainless Flat Washers, 80 PCS | https://www.amazon.com/gp/product/B0CM3MCY27 | $0.11 |
 | DPDT Knife Switch | QWORK Educational Double Pole Cutter Switch, Double Throw Electrical Switch, 4 Pack Premium Electrical Switches with Excellent Safety and Durability for Multiple Applications | https://www.amazon.com/gp/product/B0CH7X6CJG | $3.85 |
 | 0.25W resistors | 330 and 10K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219 | $0.10 |
+| 1/4" grommet | 190-piece rubber grommet kit | https://www.amazon.com/gp/product/B0C58WDLDZ | $0.05 |
 
 
 
