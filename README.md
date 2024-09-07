@@ -140,7 +140,7 @@ The following are the pins that I added to the M4 code in https://github.com/Mar
 | M USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
 | PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
 | JST PH 2mm 3-Pin to socket | STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | https://www.adafruit.com/product/3894 | $1.25 |
-| 12mm button switches LED | 5Pcs 12mm Metal Raised Head Latching Push Button Switch Waterproof Anti-Vandal Silver Shell with 15cm Cable 12V-24V 1NO ON/Off for 1/2" Mounting Hole with Halo Ring Blue LED | https://www.amazon.com/dp/B0BJCMDGK2 | $2.65 |
+| 12mm button switches LED | 5Pcs 12mm Metal Raised Head Latching Push Button Switch Waterproof Anti-Vandal Silver Shell with 15cm Cable 12V-24V 1NO ON/Off for 1/2" Mounting Hole with Halo Ring Red LED | https://www.amazon.com/dp/B0BJCMDGK2 | $2.65 |
 | 7/16 washer | 7/16" Flat Washer, 18-8 (304) Stainless Steel Washers Flat, 7/16 inch Stainless Flat Washers, 80 PCS | https://www.amazon.com/gp/product/B0CM3MCY27 | $0.11 |
 | DPDT Knife Switch | QWORK Educational Double Pole Cutter Switch, Double Throw Electrical Switch, 4 Pack Premium Electrical Switches with Excellent Safety and Durability for Multiple Applications | https://www.amazon.com/gp/product/B0CH7X6CJG | $3.85 |
 | 0.25W resistors | 330 and 10K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219 | $0.10 |
