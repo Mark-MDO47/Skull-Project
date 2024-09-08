@@ -152,6 +152,7 @@ The following are the pins that I added to the M4 code in https://github.com/Mar
 | 0.25W resistors | 330 and 10K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219 | $0.10 |
 | JST SM Plug 4 Pin | JST SM Plug 4 Pin Male to Female latching | https://www.amazon.com/gp/product/B083GR7FQF | $0.50 |
 | 1/4" grommet | 190-piece rubber grommet kit | https://www.amazon.com/gp/product/B0C58WDLDZ | $0.05 |
+| Velcro | VELCRO Brand Industrial Fasteners Extreme Outdoor Weather Conditions Professional Grade Heavy Duty Strength Holds up to 15 lbs on Rough Surfaces, 4in x 1in (5pk), Strips, Gray | https://www.amazon.com/VELCRO-Brand-Industrial-Conditions-Professional/dp/B002YH1CCC | $1.00 |
 
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
