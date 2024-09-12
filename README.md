@@ -6,6 +6,8 @@ Youtube: https://youtu.be/qxJXeUGvmBE
 | skull first light | control box | control box open |
 | --- | --- | --- |
 | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_first_light.jpg" width="200" alt="Image of skull project first time Hallowing is inserted"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Closed_3d_CableSide.jpg" width="200" alt="Image of skull project control box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Open_top.jpg" width="200" alt="Image of skull project control box open"> |
+| **skull and control box** | **inside view of skull** | **joke of the day** |
+| <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullAndControlBox.png" width="200" alt="Assembled Skull and Control Box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullInside.png" width="200" alt="Inside view of Skull"> | Your Ad Here (just kidding...) |
 
 **Table Of Contents**
 * [Top](#skull\-project "Top")
