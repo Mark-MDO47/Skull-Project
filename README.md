@@ -118,7 +118,19 @@ There is a discrepancy on GND pins between the M4 pinouts diagram and the M4 sch
 [Top](#skull\-project "Top")<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0.png" width="600" alt="schematic of skull project version 1.0">
 
-The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the Hallowing M0.
+### Pin Definitions mdo_m4_eyes - Code That Was Used
+[Top](#skull\-project "Top")<br>
+The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes from directory **mdo_m4_skull_project**. mdo_m4_skull_project.ino is just a copy of M4_Eyes.ino renamed so I can use it from this directory.
+
+| Pin Name | M0 | M4 | Definition | Comment |
+| --- | --- | --- | --- | --- |
+| MOTION_SENSOR_PIN | A11 | A8 | mdo_skull_project.cpp | sense when to turn on display backlight |
+| DISPLAY_FORCE_ON_LED | 5 | 5 | mdo_skull_project.cpp | output to button LED to say backlight forced on |
+| DISPLAY_FORCE_ON | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on |
+
+### Pin Definitions All_Seeing_Skull - Code Not Used
+[Top](#skull\-project "Top")<br>
+The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the Hallowing M0.<br>
 My comments are included regarding use with the Hallowing M4.
 
 | Pin Name | M0 | M4 | Definition | Comment |
@@ -129,14 +141,6 @@ My comments are included regarding use with the Hallowing M4.
 | DISPLAY_RESET | 37 | 46 | config.h | N/A |
 | MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | turn on display backlight |
 | BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
-
-The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes.
-
-| Pin Name | M0 | M4 | Definition | Comment |
-| --- | --- | --- | --- | --- |
-| MOTION_SENSOR_PIN | A11 | A8 | mdo_skull_project.cpp | sense when to turn on display backlight |
-| DISPLAY_FORCE_ON_LED | 5 | 5 | mdo_skull_project.cpp | output to button LED to say backlight forced on |
-| DISPLAY_FORCE_ON | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on |
 
 ## Parts List
 [Top](#skull\-project "Top")<br>
