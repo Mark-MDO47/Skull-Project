@@ -14,6 +14,7 @@ Halloween skull with displayed eye and person sensor
   * [PIR sensor](#pir-sensor "PIR sensor")
 * [Software](#software "Software")
 * [Power](#power "Power")
+  * [FeatherWing connector Ground pins](#featherwing-connector-ground-pins "FeatherWing connector Ground pins")
 * [Circuit](#circuit "Circuit")
 * [Parts List](#parts-list "Parts List")
 * [Not Using for This project](#not-using-for-this-project "Not Using for This project")
