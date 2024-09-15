@@ -166,8 +166,6 @@ My comments are included regarding use with the Hallowing M4.
 | Battery Holder | 5pcs 18650 Battery Holder 2 Slot 3.7V 18650 Battery Clip Holder Box Storage Case with Soldering Pin Copper Contacts | https://www.amazon.com/gp/product/B09LC13D9P | $2.60 |
 | UBEC 5V 3A | 5V/6V Hobbywing 3A UBEC Max 5A |https://www.aliexpress.us/item/3256805502614547.html | $1.50 |
 | M USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
-| PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
-| JST PH 2mm 3-Pin to socket | STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | https://www.adafruit.com/product/3894 | $1.25 |
 | 12mm button switches LED | 5Pcs 12mm Metal Raised Head Latching Push Button Switch Waterproof Anti-Vandal Silver Shell with 15cm Cable 12V-24V 1NO ON/Off for 1/2" Mounting Hole with Halo Ring Red LED | https://www.amazon.com/dp/B0BJCMDGK2 | $2.65 |
 | 7/16 washer | 7/16" Flat Washer, 18-8 (304) Stainless Steel Washers Flat, 7/16 inch Stainless Flat Washers, 80 PCS | https://www.amazon.com/gp/product/B0CM3MCY27 | $0.11 |
 | DPDT Knife Switch | QWORK Educational Double Pole Cutter Switch, Double Throw Electrical Switch, 4 Pack Premium Electrical Switches with Excellent Safety and Durability for Multiple Applications | https://www.amazon.com/gp/product/B0CH7X6CJG | $3.85 |
@@ -175,6 +173,13 @@ My comments are included regarding use with the Hallowing M4.
 | JST SM Plug 4 Pin | JST SM Plug 4 Pin Male to Female latching | https://www.amazon.com/gp/product/B083GR7FQF | $0.50 |
 | 1/4" grommet | 190-piece rubber grommet kit | https://www.amazon.com/gp/product/B0C58WDLDZ | $0.05 |
 | Velcro | VELCRO Brand Industrial Fasteners Extreme Outdoor Weather Conditions Professional Grade Heavy Duty Strength Holds up to 15 lbs on Rough Surfaces, 4in x 1in (5pk), Strips, Gray | https://www.amazon.com/VELCRO-Brand-Industrial-Conditions-Professional/dp/B002YH1CCC | $1.00 |
+
+## Parts List PIR Sensor
+[Top](#skull\-project "Top")<br>
+| Title | Descrip | URL | each |
+| --- | --- | --- | --- |
+| PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
+| JST PH 2mm 3-Pin to socket | STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | https://www.adafruit.com/product/3894 | $1.25 |
 
 ## Parts List Optional 2nd Eye
 [Top](#skull\-project "Top")<br>
