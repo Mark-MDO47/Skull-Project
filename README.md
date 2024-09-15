@@ -124,6 +124,8 @@ There is a discrepancy on GND pins between the M4 pinouts diagram and the M4 sch
 [Top](#skull\-project "Top")<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0.png" width="600" alt="schematic of skull project version 1.0">
 
+<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_2ndEye.png" width="300" alt="schematic of skull project version 1.0 optional 2nd eye">
+
 ### Pin Definitions mdo_m4_eyes - Code That Was Used
 [Top](#skull\-project "Top")<br>
 The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes from directory **mdo_m4_skull_project**. mdo_m4_skull_project.ino is just a copy of M4_Eyes.ino renamed so I can use it from this directory.
