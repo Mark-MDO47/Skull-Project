@@ -153,7 +153,7 @@ My comments are included regarding use with the Hallowing M4.
 | MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | turn on display backlight |
 | BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
 
-## Parts List
+## Parts List Skull
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
