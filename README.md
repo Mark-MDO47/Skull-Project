@@ -22,7 +22,7 @@ Youtube: https://youtu.be/qxJXeUGvmBE
 * [Circuit](#circuit "Circuit")
   * [Pin Definitions mdo_m4_eyes - Code That Was Used](#pin-definitions-mdo_m4_eyes-\--code-that-was-used "Pin Definitions mdo_m4_eyes - Code That Was Used")
   * [Pin Definitions All_Seeing_Skull - Code Not Used](#pin-definitions-all_seeing_skull-\--code-not-used "Pin Definitions All_Seeing_Skull - Code Not Used")
-* [Parts List Skull](#parts-list-skull "Parts List Skull")
+* [Parts List Skull and Control Box](#parts-list-skull-and-control-box "Parts List Skull and Control Box")
 * [Parts List PIR Sensor](#parts-list-pir-sensor "Parts List PIR Sensor")
 * [Parts List Optional 2nd Eye](#parts-list-optional-2nd-eye "Parts List Optional 2nd Eye")
 * [Not Using for This project](#not-using-for-this-project "Not Using for This project")
@@ -155,7 +155,7 @@ My comments are included regarding use with the Hallowing M4.
 | MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | turn on display backlight |
 | BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
 
-## Parts List Skull
+## Parts List Skull and Control Box
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
