@@ -22,7 +22,8 @@ Youtube: https://youtu.be/qxJXeUGvmBE
 * [Circuit](#circuit "Circuit")
   * [Pin Definitions mdo_m4_eyes - Code That Was Used](#pin-definitions-mdo_m4_eyes-\--code-that-was-used "Pin Definitions mdo_m4_eyes - Code That Was Used")
   * [Pin Definitions All_Seeing_Skull - Code Not Used](#pin-definitions-all_seeing_skull-\--code-not-used "Pin Definitions All_Seeing_Skull - Code Not Used")
-* [Parts List](#parts-list "Parts List")
+* [Parts List Skull](#parts-list-skull "Parts List Skull")
+* [Parts List Optional 2nd Eye](#parts-list-optional-2nd-eye "Parts List Optional 2nd Eye")
 * [Not Using for This project](#not-using-for-this-project "Not Using for This project")
   * [Not Using Doppler Radar - RCWL-0516](#not-using-doppler-radar-\--rcwl\-0516 "Not Using Doppler Radar - RCWL-0516")
 
