@@ -175,6 +175,16 @@ My comments are included regarding use with the Hallowing M4.
 | 1/4" grommet | 190-piece rubber grommet kit | https://www.amazon.com/gp/product/B0C58WDLDZ | $0.05 |
 | Velcro | VELCRO Brand Industrial Fasteners Extreme Outdoor Weather Conditions Professional Grade Heavy Duty Strength Holds up to 15 lbs on Rough Surfaces, 4in x 1in (5pk), Strips, Gray | https://www.amazon.com/VELCRO-Brand-Industrial-Conditions-Professional/dp/B002YH1CCC | $1.00 |
 
+## Parts List Optional 2nd Eye
+[Top](#skull\-project "Top")<br>
+| Title | Descrip | URL | each |
+| --- | --- | --- | --- |
+| Hallowing M4 | Adafruit HalloWing M4 Express - Goth Adafruit Black Edition | https://www.adafruit.com/product/4300 | $40 |
+| Plastic lens skull | Convex Plastic Lens with Edge - 40mm Diameter | https://www.adafruit.com/product/3917 | $4 |
+| lens holder skull | Clear Acrylic Lens Holder + Hardware Kit for HalloWing | https://www.adafruit.com/product/4013 | $3 |
+| M USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
+| miscellaneous | more Velcro, more cable ties, some standard M-M Dupont connectors | misc. | N/A |
+
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
 
