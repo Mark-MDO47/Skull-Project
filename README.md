@@ -125,10 +125,17 @@ There is a discrepancy on GND pins between the M4 pinouts diagram and the M4 sch
 
 ## Circuit
 [Top](#skull\-project "Top")<br>
+
+### Circuit for Skull and Control Box
+[Top](#skull\-project "Top")<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0.png" width="600" alt="schematic of skull project version 1.0">
 
+### Circuit for Optional 2nd Eye
+[Top](#skull\-project "Top")<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_2ndEye.png" width="300" alt="schematic of skull project version 1.0 optional 2nd eye">
 
+### Circuit for Person Motion Sensors
+[Top](#skull\-project "Top")<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_PersonSensors.png" width="300" alt="schematic of skull project version 1.0 person sensors">
 
 ### Pin Definitions Hallowing M4 mdo_m4_eyes - Code That Was Used
