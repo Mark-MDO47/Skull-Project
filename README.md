@@ -116,17 +116,6 @@ The LED on the latching button switch works with 3.3V I/O output even though the
 
 The PIR sensor will run succesfully with the HalloWing M4 powered by USB and the LIPO battery mostly charged.
 
-### FeatherWing connector Ground pins
-[Top](#skull\-project "Top")<br>
-There is a discrepancy on GND pins between the M4 pinouts diagram and the M4 schematic
-- https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf
-- https://cdn-learn.adafruit.com/assets/assets/000/081/144/original/adafruit_products_Hallowing_M4_Schematic.png?1568924235
-
-**good** The pinouts GND pin on the FeatherWing connector between AREF and A0 matches the GND pin on the sensor connector.<br>
-**bad** The pinouts GND pin at the bottom of that connector below MISO/RX/TX is marked on the **schematic** as D4 and NC.
-- I measured this pin at about 3.5V from ground with USB connected and displaying the eyeball with unchanged software.
-- My theory is that it is **D4** but maybe connected instead of "no connect".
-
 ## Circuit
 [Top](#skull\-project "Top")<br>
 
@@ -153,6 +142,17 @@ The following are the pins that I added to the M4 code in https://github.com/Mar
 | DISPLAY_FORCE_ON | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on<br> OR optional 2nd eye turn display on |
 | SCNDEYE_DSPLY_ON | 9 TBR | 9 | mdo_skull_project.cpp | output to optional 2nd eye to turn display on |
 | SCNDEYE_1ST_EYE | 10 TBR | 10 | mdo_skull_project.cpp | input with internal pullup: HIGH if primary eye |
+
+### M4 FeatherWing connector Ground pins
+[Top](#skull\-project "Top")<br>
+There is a discrepancy on GND pins between the M4 pinouts diagram and the M4 schematic
+- https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf
+- https://cdn-learn.adafruit.com/assets/assets/000/081/144/original/adafruit_products_Hallowing_M4_Schematic.png?1568924235
+
+**good** The pinouts GND pin on the FeatherWing connector between AREF and A0 matches the GND pin on the sensor connector.<br>
+**bad** The pinouts GND pin at the bottom of that connector below MISO/RX/TX is marked on the **schematic** as D4 and NC.
+- I measured this pin at about 3.5V from ground with USB connected and displaying the eyeball with unchanged software.
+- My theory is that it is **D4** but maybe connected instead of "no connect".
 
 ### Pin Definitions Arduino Nano Pulse Extender
 [Top](#skull\-project "Top")<br>
