@@ -130,7 +130,7 @@ There is a discrepancy on GND pins between the M4 pinouts diagram and the M4 sch
 
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_PersonSensors.png" width="300" alt="schematic of skull project version 1.0 person sensors">
 
-### Pin Definitions mdo_m4_eyes - Code That Was Used
+### Pin Definitions Hallowing M4 mdo_m4_eyes - Code That Was Used
 [Top](#skull\-project "Top")<br>
 The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes from directory **mdo_m4_skull_project**. mdo_m4_skull_project.ino is just a copy of M4_Eyes.ino renamed so I can use it from this directory.
 
@@ -141,6 +141,10 @@ The following are the pins that I added to the M4 code in https://github.com/Mar
 | DISPLAY_FORCE_ON | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on<br> OR optional 2nd eye turn display on |
 | SCNDEYE_DSPLY_ON | 9 TBR | 9 | mdo_skull_project.cpp | output to optional 2nd eye to turn display on |
 | SCNDEYE_1ST_EYE | 10 TBR | 10 | mdo_skull_project.cpp | input with internal pullup: HIGH if primary eye |
+
+### Pin Definitions Arduino Nano Pulse Extender
+[Top](#skull\-project "Top")<br>
+I gave up trying to make a circuit to edge-detect without a clock - too complicated! I just used one of my many old Arduino Nanos.
 
 The following are the pin definitions for the pulse-extender Arduino Nano in the Microwave Person Sensor.
 
