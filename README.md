@@ -142,6 +142,12 @@ The following are the pins that I added to the M4 code in https://github.com/Mar
 | SCNDEYE_DSPLY_ON | 9 TBR | 9 | mdo_skull_project.cpp | output to optional 2nd eye to turn display on |
 | SCNDEYE_1ST_EYE | 10 TBR | 10 | mdo_skull_project.cpp | input with internal pullup: HIGH if primary eye |
 
+The following are the pin definitions for the pulse-extender Arduino Nano in the Microwave Person Sensor.
+
+| Pin Name | NANO | Definition | Comment |
+| --- | --- | --- | --- |
+| INTRPT_PIN | 2 | interrupt pin for edge detection | must be pin 2 or 3 |
+| XTNDD_PULSE_PIN | 12 | output pin extended to two seconds | 5V, must shift to 3.5V |
 
 ### Pin Definitions All_Seeing_Skull - Code Not Used
 [Top](#skull\-project "Top")<br>
