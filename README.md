@@ -211,7 +211,7 @@ My comments are included regarding use with the Hallowing M4.
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
 | Microwave sensor | Gravity: Digital 10.525GHz Microwave Sensor (Motion Detection) SEN0192 | https://www.dfrobot.com/product-1403.html | $10 |
-| JST PH 2mm 3-Pin to socket | STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | https://www.adafruit.com/product/3894 | $1.25 |
+| JST PH 2mm 3-Pin to male | STEMMA JST PH 2mm 3-Pin to Male Header Cable - 200mm | https://www.adafruit.com/product/3895 | $1.25 |
 | Arduino Nano | V3.0 ATmega328P 5V 16M CH340 Compatible to Arduino Nano V3 with 32Kbyte Flash (program storage), 2Kbyte SRAM, 1Kbyte EEPROM | https://www.aliexpress.com/item/32242048437.html | $1 |
 
 ## Parts List Optional 2nd Eye
