@@ -67,6 +67,9 @@ Yet More Documentation
 - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf - Fritzing object in the Adafruit Fritzing Library
 - PDF for Hallowing M4 Board Diagram on GitHub
 
+One way to synchronize two eyes
+- https://learn.adafruit.com/synchronized-eyes-with-two-hallowings
+
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
 ### Eyeball - Hallowing M0 Express
