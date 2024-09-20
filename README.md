@@ -28,6 +28,7 @@ Youtube: https://youtu.be/qxJXeUGvmBE
   * [Circuit for Infrared Person Motion Sensor for One Eye Build](#circuit-for-infrared-person-motion-sensor-for-one-eye-build "Circuit for Infrared Person Motion Sensor for One Eye Build")
   * [Circuit for Optional 2nd Eye](#circuit-for-optional-2nd-eye "Circuit for Optional 2nd Eye")
   * [Circuit for Microwave Person Motion Sensor for Two Eye Build](#circuit-for-microwave-person-motion-sensor-for-two-eye-build "Circuit for Microwave Person Motion Sensor for Two Eye Build")
+    * [Oscilloscope Trace of Pulse Extender](#oscilloscope-trace-of-pulse-extender "Oscilloscope Trace of Pulse Extender")
     * [Pin Definitions Arduino Nano Pulse Extender](#pin-definitions-arduino-nano-pulse-extender "Pin Definitions Arduino Nano Pulse Extender")
 * [Parts List](#parts-list "Parts List")
   * [Parts List Skull and Control Box](#parts-list-skull-and-control-box "Parts List Skull and Control Box")
