@@ -165,8 +165,8 @@ The following are the pin definitions for the pulse-extender Arduino Nano in the
 
 | Pin Name | NANO | Definition | Comment |
 | --- | --- | --- | --- |
-| INTRPT_PIN | 2 | interrupt pin for edge detection | must be pin 2 or 3 |
-| XTNDD_PULSE_PIN | 12 | output pin extended to two seconds | 5V, must shift to 3.5V |
+| INTERRUPT_PIN | 2 | interrupt pin for edge detection | must be pin 2 or 3 |
+| EXTENDED_PULSE_PIN | 12 | output pin; pulse extended by two seconds | 5V, must shift to 3.5V |
 
 ### Pin Definitions All_Seeing_Skull - Code Not Used
 [Top](#skull\-project "Top")<br>
