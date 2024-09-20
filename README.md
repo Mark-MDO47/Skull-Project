@@ -88,14 +88,14 @@ The PIR sensor is an infrared motion detector; it is used in the one-eye build s
 
 It turns out that the plastic cover on the PIR sensor is actually a fresnel lens for infrared and not just protection or decoration. This unit has a lens of a size that should fit well in the skull eye-socket.
 
-It has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
+It has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions. There is min/max indications on the board.
 
 ### Microwave Motion Person Sensor
 [Top](#skull\-project "Top")<br>
 The microwave motion person sensor can detect motion through the plastic of the skull so can be mounted invisibly inside. It is used for the two-eye build.
 -  https://www.dfrobot.com/product-1403.html
 
-This also has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
+This also has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions. Counter-clockwise to increase sensitivity.
 
 When detecting motion, it generates data pulses that can be as short as 2 to 5 milliseconds according to my measurements. To prevent extra work in the busy HalloWing, I added an Arduino Nano to act as a pulse extender. The Nano also inverts the sense of the signal to match the PIR sensor. There is a resistor voltage divider to level shift the output to 3.5 Volts.
 - TLDR - this is the first time I ever used interrupts in Arduino code.
