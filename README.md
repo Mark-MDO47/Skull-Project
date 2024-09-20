@@ -108,7 +108,7 @@ The box is an appropriately orange cardboard box that some of my parts were deli
 It has an on/off DPDT knife switch I had laying around - best looking one I had. The parts list has one that doesn't look quite so mad-scientisty; sorry, best I can find. Even though I used a DPDT, I am only using one side of it. The rest is for the Halloweeny look of it.
 
 It also has a push button with LED to control whether the backlight for the LED should depend on the person sensor or just stay on all the time. If the push putton LED is lit, the backlight will stay on all the time.
-- TLDR - The push buttons had a tendency to push through the hole in the cardboard. I couldn't locate a washer that worked for the 16mm version of the push button but the 12mm version fits well with a 7/16" Flat Washer. I learned a lot about washer sizes in this project.
+- TLDR - The push buttons had a tendency to push through the hole in the cardboard. I couldn't locate a washer that worked for the 16mm version of the push button but the 12mm version fits well with a 7/16" flat washer. I learned a lot about washer sizes in this project.
 
 ## Software
 [Top](#skull\-project "Top")<br>
