@@ -94,7 +94,7 @@ The microwave motion person sensor can detect motion through the plastic of the 
 
 This also has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
 
-It generates pulses that can be as short as 2 to 5 milliseconds. To prevent extra work in the busy HalloWing, I added an Arduino Nano to act as a pulse extender and invertor. There is a resistor voltage divider to level shift the output to 3.5 Volts.
+When detecting motion, it generates data pulses that can be as short as 2 to 5 milliseconds according to my measurements. To prevent extra work in the busy HalloWing, I added an Arduino Nano to act as a pulse extender. The Nano also inverts the sense of the signal to match the PIR sensor. There is a resistor voltage divider to level shift the output to 3.5 Volts.
 - TLDR - this is the first time I ever used interrupts in Arduino code.
 
 ### Control Box
@@ -103,7 +103,7 @@ I made a control box so the skull didn't need to be manipulated to change the ba
 
 The box is an appropriately orange cardboard box that some of my parts were delivered in.
 
-It has an on/off DPDT knife switch I had laying around - best looking one I had. The parts list has one that doesn't look quite so mad-scientisty; sorry, best I can find.
+It has an on/off DPDT knife switch I had laying around - best looking one I had. The parts list has one that doesn't look quite so mad-scientisty; sorry, best I can find. Even though I used a DPDT, I am only using one side of it. The rest is for the Halloweeny look of it.
 
 It also has a push button with LED to control whether the backlight for the LED should depend on the person sensor or just stay on all the time. If the push putton LED is lit, the backlight will stay on all the time.
 - TLDR - The push buttons had a tendency to push through the hole in the cardboard. I couldn't locate a washer that worked for the 16mm version of the push button but the 12mm version fits well with a 7/16" Flat Washer. I learned a lot about washer sizes in this project.
