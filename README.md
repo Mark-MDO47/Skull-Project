@@ -76,13 +76,23 @@ One way to synchronize two eyes
 
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
 
-### PIR sensor
+### PIR Infrared Motion Person Sensor
 [Top](#skull\-project "Top")<br>
-Using the PIR sensor instead of the RCWL-0516 doppler radar sensor.
+The PIR sensor is an infrared motion detector; it is used in the one-eye build since it needs a clear view and is used as the 2nd eye.
+- https://www.adafruit.com/product/189
 
 It turns out that the plastic cover on the PIR sensor is actually a fresnel lens for infrared and not just protection or decoration. This unit has a lens of a size that should fit well in the skull eye-socket.
 
 It has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
+
+### Microwave Motion Person Sensor
+[Top](#skull\-project "Top")<br>
+The microwave motion person sensor can detect motion through the plastic of the skull so can be mounted invisibly inside. It is used for the two-eye build.
+-  https://www.dfrobot.com/product-1403.html
+
+This also has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions.
+
+It generates pulses that can be as short as 2 to 5 milliseconds. To prevent extra work in the busy HalloWing, I added an Arduino Nano to act as a pulse extender and invertor. There is a resistor voltage divider to level shift the output to 3.5 Volts.
 
 ## Software
 [Top](#skull\-project "Top")<br>
