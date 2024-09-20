@@ -214,6 +214,9 @@ The Microwave sensor can go through plastic so can be mounted invisibly inside, 
 The Arduino Nano is used to extend the microwave sensor pulse from the millisecond range to the two second range. This makes it easy for the busy HalloWing in the primary eye to detect the pulse.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_mwave_PersonSensor.png" width="300" alt="schematic of skull project version 1.0 microwave person sensor">
 
+Below is an oscilloscope trace of pulse extender operation; yellow is input, blue is output. The input pulse(s) are extended until there is two seconds of no input activity.<br>
+<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/ScopeTracePulseExtender.png" width="300" alt="Oscilloscope trace of pulse extender; yellow is input, blue is output.">
+
 #### Pin Definitions Arduino Nano Pulse Extender
 [Top](#skull\-project "Top")<br>
 I gave up trying to make a circuit to edge-detect without a clock from parts on hand - too complicated! And the RS D-type flip-flops that would do the job had long delivery times. I finally just used one of my many old Arduino Nanos.
