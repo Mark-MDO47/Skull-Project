@@ -5,7 +5,7 @@ Youtube: https://youtu.be/qxJXeUGvmBE
 
 | skull first light | control box | control box open |
 | --- | --- | --- |
-| <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_first_light.jpg" width="200" alt="Image of skull project first time Hallowing is inserted"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Closed_3d_CableSide.jpg" width="200" alt="Image of skull project control box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Open_top.jpg" width="200" alt="Image of skull project control box open"> |
+| <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_first_light.jpg" width="200" alt="Image of skull project first time HalloWing is inserted"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Closed_3d_CableSide.jpg" width="200" alt="Image of skull project control box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Open_top.jpg" width="200" alt="Image of skull project control box open"> |
 | **1-eye skull and control box** | **inside view of 1-eye skull** | **joke of the day** |
 | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullAndControlBox.png" width="200" alt="Assembled Skull and Control Box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullInside.png" width="200" alt="Inside view of Skull"> | Your Ad Here (just kidding...) |
 
@@ -44,7 +44,7 @@ Kudos to Adafruit for their continuing work on the "Uncanny Eyes" project and sp
   - https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/main/All_Seeing_Skull
 - https://learn.adafruit.com/animated-electronic-eyes
 
-I am making a build of the hallowing-all-seeing-skull using the Hallowing M4 Express.
+I am making a build of the hallowing-all-seeing-skull using the HalloWing M4 Express.
 - I was going to substitute the **RCWL-0516** Doppler Radar for the PIR Sensor but decided it wasn't a good choice for outdoor use.
 - see https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md if you are interested in the reasoning.
 
@@ -52,9 +52,9 @@ I am making a build of the hallowing-all-seeing-skull using the Hallowing M4 Exp
 [Top](#skull\-project "Top")<br>
 As seen in the parts list, I chose a plastic skull for the project. The size is pretty good; a bit of a tight fit for the HalloWing, but it still looks quite good in practice.
 
-### Eyeball - Hallowing M4 Express
+### Eyeball - HalloWing M4 Express
 [Top](#skull\-project "Top")<br>
-The Hallowing M4 Express is amazing! It makes so many different eyeballs available and they are all beautiful!
+The HalloWing M4 Express is amazing! It makes so many different eyeballs available and they are all beautiful!
 - https://learn.adafruit.com/adafruit-hallowing-m4 - for details on this
 - https://learn.adafruit.com/adafruit-hallowing-m4/pinouts - pinout
   - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf - pinout
@@ -69,20 +69,12 @@ Yet More Documentation
 - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB - EagleCAD files on GitHub
 - https://github.com/adafruit/Fritzing-Library/blob/master/parts/Adafruit%20Hallowing%20M4.fzpz 3D models on GitHub
 - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf - Fritzing object in the Adafruit Fritzing Library
-- PDF for Hallowing M4 Board Diagram on GitHub
+- PDF for HalloWing M4 Board Diagram on GitHub
 
 One way to synchronize two eyes
 - https://learn.adafruit.com/synchronized-eyes-with-two-hallowings
 
 As seen in the parts list, you can get some very nice fitted lenses to make the effect even better.
-
-### Eyeball - Hallowing M0 Express
-[Top](#skull\-project "Top")<br>
-There is also an "M0" version with a lower resolution display, but still beautiful!
-- https://learn.adafruit.com/adafruit-hallowing
-- https://learn.adafruit.com/adafruit-hallowing/adapting-sketches-to-m0
-
-For this project I decided to just use the more capable M4 version, but left some information about the differences with the M0 in case I want to build another.
 
 ### PIR sensor
 [Top](#skull\-project "Top")<br>
@@ -94,8 +86,8 @@ It has a potentiometer adjustment for sensitivity so it can be tuned for distanc
 
 ## Software
 [Top](#skull\-project "Top")<br>
-### Software Hallowing M4
-See these for the Hallowing code used in this project:
+### Software HalloWing M4
+See these for the HalloWing code used in this project:
 | Descrip | URL |
 | --- | --- |
 | How to load/initialize the M4 | https://github.com/Mark-MDO47/expts_HallowingM4 |
@@ -103,7 +95,7 @@ See these for the Hallowing code used in this project:
 | Teensy and M0 code, forked from AdaFruit | https://github.com/Mark-MDO47/Uncanny_Eyes |
 | How to expand with AI | https://github.com/Mark-MDO47/HalloweenEyes |
 
-For this project I decided to just use the more capable Hallowing M4 version (see **mdo_m4_eyes** above), but kept some information here about the differences with the M0 in case I want to build one with the M0.
+For this project I decided to just use the more capable HalloWing M4 version (see **mdo_m4_eyes** above), but kept some information here about the differences with the M0 in case I want to build one with the M0.
 
 The software can use the PIR sensor to turn the eye backlight on when it detects movement. There is a pushbutton that can toggle between having the backlight always-on or having the backlight depend on the PIR sensor. This button has an LED that is lit when the mode is always-on.
 
@@ -124,8 +116,8 @@ Here from today's version of the code:
 // All the scope traces from the sensor looked longer than 2 millisec pulses
 //
 // The purpose of this is to extend the pulse from the sensor to at least 2 seconds.
-// This will allow the Hallowing to easily see the pulse. https://www.adafruit.com/product/4300
-// The Hallowing has code with a separate time extension; it uses this extended pulse along with
+// This will allow the HalloWing to easily see the pulse. https://www.adafruit.com/product/4300
+// The HalloWing has code with a separate time extension; it uses this extended pulse along with
 //    its own time extension to turn the LED backlight of the Eye(s) on/off interactively.
 // The goal is to have the Eye(s) turn on unexpectedly as children approach on Halloween and
 //    then have timeouts that make it somewhat interactive with them as they are closer
@@ -134,7 +126,7 @@ Here from today's version of the code:
 
 ## Power
 [Top](#skull\-project "Top")<br>
-The PIR sensor uses 5V-to-12V power so I will go with 7.4V-8.0V Battery to a UBEC to 5V through the USB into the Hallowing; the M4 version (at least) will pass the 5V on through to the PIR.
+The PIR sensor uses 5V-to-12V power so I will go with 7.4V-8.0V Battery to a UBEC to 5V through the USB into the HalloWing; the M4 version (at least) will pass the 5V on through to the PIR.
 
 The USB standard specifies a Vbus range of 4.75V to 5.25V.
 - Measuring the output from plugged into PC I see 5.1V
@@ -143,7 +135,7 @@ The USB standard specifies a Vbus range of 4.75V to 5.25V.
 With USB connected to a PC the measured voltage output from the sensor connector is 4.7V.<br>
 With USB disconnected running from a fully powered LIPO battery the measured voltage output from the sensor connector is 4.1V and dropping.
 
-The Adafruit documents say that when using the USB Micro-B connector to power the Hallowing, leave the ID and data pins floating.
+The Adafruit documents say that when using the USB Micro-B connector to power the HalloWing, leave the ID and data pins floating.
 
 The LED on the latching button switch works with 3.3V I/O output even though the switch is rated at 24V - that simplifies things greatly!
 
@@ -170,10 +162,10 @@ Note that there is an option to use the 4Pin JST cable between the I2C sockets o
 ### Circuit for Microwave Person Motion Sensor for Two Eye Build
 [Top](#skull\-project "Top")<br>
 The Microwave sensor can go through plastic so can be mounted invisibly inside, allowing use of both eyes.<br>
-The Arduino Nano is used to extend the microwave sensor pulse from the millisecond range to the two second range. This makes it easy for the busy Hallowing in the primary eye to detect the pulse.<br>
+The Arduino Nano is used to extend the microwave sensor pulse from the millisecond range to the two second range. This makes it easy for the busy HalloWing in the primary eye to detect the pulse.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_mwave_PersonSensor.png" width="300" alt="schematic of skull project version 1.0 microwave person sensor">
 
-### Pin Definitions Hallowing M4 mdo_m4_eyes - Code That Was Used
+### Pin Definitions HalloWing M4 mdo_m4_eyes - Code That Was Used
 [Top](#skull\-project "Top")<br>
 The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes from directory **mdo_m4_skull_project**. mdo_m4_skull_project.ino is just a copy of M4_Eyes.ino renamed so I can use it from this directory.
 
@@ -221,7 +213,7 @@ The parts lists are divided up to reflect this.
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
 | plastic skull | MAGICLULU 1Pcs Table Top Skeleton Head Skull Head Model Simulation Skeleton Head Life Size Skeleton Skull for Halloween Décor | https://www.amazon.com/dp/B0C777NBDJ | $13 |
-| Hallowing M4 | Adafruit HalloWing M4 Express - Goth Adafruit Black Edition | https://www.adafruit.com/product/4300 | $40 |
+| HalloWing M4 | Adafruit HalloWing M4 Express - Goth Adafruit Black Edition | https://www.adafruit.com/product/4300 | $40 |
 | Plastic lens | Convex Plastic Lens with Edge - 40mm Diameter | https://www.adafruit.com/product/3917 | $4 |
 | lens holder | Clear Acrylic Lens Holder + Hardware Kit for HalloWing | https://www.adafruit.com/product/4013 | $3 |
 | Batteries | 4 Pack 3.7 Volt Button Top Rechargeable Batteries and 18650 Battery Charger,Lithium Battery 4000mAh (Battery and Charger) | https://www.amazon.com/gp/product/B0CP6V26QX | $25 |
@@ -256,7 +248,7 @@ The parts lists are divided up to reflect this.
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
-| Hallowing M4 | Adafruit HalloWing M4 Express - Goth Adafruit Black Edition | https://www.adafruit.com/product/4300 | $40 |
+| HalloWing M4 | Adafruit HalloWing M4 Express - Goth Adafruit Black Edition | https://www.adafruit.com/product/4300 | $40 |
 | Plastic lens skull | Convex Plastic Lens with Edge - 40mm Diameter | https://www.adafruit.com/product/3917 | $4 |
 | lens holder skull | Clear Acrylic Lens Holder + Hardware Kit for HalloWing | https://www.adafruit.com/product/4013 | $3 |
 | miscellaneous | more Velcro, more cable ties, some standard M-M Dupont connectors | misc. | N/A |
@@ -269,10 +261,18 @@ The parts lists are divided up to reflect this.
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
 
+### Eyeball - HalloWing M0 Express - M0 not used
+[Top](#skull\-project "Top")<br>
+There is also an "M0" version with a lower resolution display, but still beautiful!
+- https://learn.adafruit.com/adafruit-hallowing
+- https://learn.adafruit.com/adafruit-hallowing/adapting-sketches-to-m0
+
+For this project I decided to just use the more capable M4 version, but left some information about the differences with the M0 in case I want to build another.
+
 ### Pin Definitions All_Seeing_Skull - Code Not Used
 [Top](#skull\-project "Top")<br>
-The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the Hallowing M0.<br>
-My comments are included regarding use with the Hallowing M4.
+The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the HalloWing M0.<br>
+My comments are included regarding use with the HalloWing M4.
 
 | Pin Name | M0 | M4 | Definition | Comment |
 | --- | --- | --- | --- | --- |
