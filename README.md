@@ -206,20 +206,6 @@ The following are the pin definitions for the pulse-extender Arduino Nano in the
 | INTERRUPT_PIN | 2 | interrupt pin for edge detection | must be pin 2 or 3 on Arduino Nano |
 | EXTENDED_PULSE_PIN | 12 | output pin; pulse extended by two seconds | 5V, must shift to 3.5V |
 
-### Pin Definitions All_Seeing_Skull - Code Not Used
-[Top](#skull\-project "Top")<br>
-The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the Hallowing M0.<br>
-My comments are included regarding use with the Hallowing M4.
-
-| Pin Name | M0 | M4 | Definition | Comment |
-| --- | --- | --- | --- | --- |
-| eyeInfo[e].select | 39 | 44 | config.h | select pin for eye display |
-| eyeInfo[e].wink | -1 | -1 | config.h | not used with HalloWing |
-| DISPLAY_BACKLIGHT | 7 | 47 | config.h | N/A |
-| DISPLAY_RESET | 37 | 46 | config.h | N/A |
-| MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | turn on display backlight |
-| BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
-
 ## Parts List Skull and Control Box
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
@@ -272,6 +258,20 @@ My comments are included regarding use with the Hallowing M4.
 
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
+
+### Pin Definitions All_Seeing_Skull - Code Not Used
+[Top](#skull\-project "Top")<br>
+The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the Hallowing M0.<br>
+My comments are included regarding use with the Hallowing M4.
+
+| Pin Name | M0 | M4 | Definition | Comment |
+| --- | --- | --- | --- | --- |
+| eyeInfo[e].select | 39 | 44 | config.h | select pin for eye display |
+| eyeInfo[e].wink | -1 | -1 | config.h | not used with HalloWing |
+| DISPLAY_BACKLIGHT | 7 | 47 | config.h | N/A |
+| DISPLAY_RESET | 37 | 46 | config.h | N/A |
+| MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | turn on display backlight |
+| BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
 
 ### Not Using Doppler Radar - RCWL-0516
 [Top](#skull\-project "Top")<br>
