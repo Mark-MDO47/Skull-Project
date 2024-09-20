@@ -123,7 +123,9 @@ See these for the HalloWing code used in this project:
 
 For this project I decided to just use the more capable HalloWing M4 version (see **mdo_m4_eyes** above), but kept some information here about the differences with the M0 in case I want to build one with the M0.
 
-The software can use the PIR sensor to turn the eye backlight on when it detects movement. There is a pushbutton that can toggle between having the backlight always-on or having the backlight depend on the PIR sensor. This button has an LED that is lit when the mode is always-on.
+The software can use the either the PIR sensor or the Microwave sensor to turn the eye backlight on when it detects movement. There is a pushbutton that can toggle between having the backlight always-on or having the backlight depend on the PIR sensor. This button has an LED that is lit when the mode is always-on.
+
+If a certain pin on the HalloWing is grounded, it knows it is the second eye and that the first eye will tell it when to turn the backlight on and off. I have a spousal request to make the eyes NOT coordinate their movement so I will work on that.
 
 ### Software Arduino Nano PulseExtender
 [Top](#skull\-project "Top")<br>
@@ -152,20 +154,17 @@ Here from today's version of the code:
 
 ## Power
 [Top](#skull\-project "Top")<br>
-The PIR sensor uses 5V-to-12V power so I will go with 7.4V-8.0V Battery to a UBEC to 5V through the USB into the HalloWing; the M4 version (at least) will pass the 5V on through to the PIR.
+The PIR sensor uses 5V-to-12V power while the Microwave sensor specs 5V + 0.25V, so I will go with 7.4V-8.0V battery to a UBEC to 5V through the USB into the HalloWing; the M4 version (at least) will pass the 5V on through to the either sensor.
 
 The USB standard specifies a Vbus range of 4.75V to 5.25V.
 - Measuring the output from plugged into PC I see 5.1V
 - Measuring the output of my UBEC I see 5.6V.
 - Measured at the end of the 12 foot cable USB interface with no load I see 5.3V.
-With USB connected to a PC the measured voltage output from the sensor connector is 4.7V.<br>
-With USB disconnected running from a fully powered LIPO battery the measured voltage output from the sensor connector is 4.1V and dropping.
+- With USB connected to a PC the measured voltage output from the sensor connector is 4.7V.
 
 The Adafruit documents say that when using the USB Micro-B connector to power the HalloWing, leave the ID and data pins floating.
 
-The LED on the latching button switch works with 3.3V I/O output even though the switch is rated at 24V - that simplifies things greatly!
-
-The PIR sensor will run succesfully with the HalloWing M4 powered by USB and the LIPO battery mostly charged.
+The LED on the latching button switch works with 3.3V I/O output from the HalloWing even though the switch is rated at 24V - that simplifies things greatly!
 
 ## Circuit
 [Top](#skull\-project "Top")<br>
