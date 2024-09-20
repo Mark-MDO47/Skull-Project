@@ -37,7 +37,7 @@ Youtube: https://youtu.be/qxJXeUGvmBE
 * [Not Using for This project](#not-using-for-this-project "Not Using for This project")
   * [Eyeball - HalloWing M0 Express - M0 not used](#eyeball-\--hallowing-m0-express-\--m0-not-used "Eyeball - HalloWing M0 Express - M0 not used")
   * [Pin Definitions All_Seeing_Skull - Code Not Used](#pin-definitions-all_seeing_skull-\--code-not-used "Pin Definitions All_Seeing_Skull - Code Not Used")
-  * [Not Using Doppler Radar - RCWL-0516](#not-using-doppler-radar-\--rcwl\-0516 "Not Using Doppler Radar - RCWL-0516")
+  * [RCWL-0516 Doppler Radar - RCWL-0516 Not Used](#rcwl\-0516-doppler-radar-\--rcwl\-0516-not-used "RCWL-0516 Doppler Radar - RCWL-0516 Not Used")
 
 ## Idea
 [Top](#skull\-project "Top")<br>
