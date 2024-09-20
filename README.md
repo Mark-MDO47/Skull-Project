@@ -206,7 +206,16 @@ The following are the pin definitions for the pulse-extender Arduino Nano in the
 | INTERRUPT_PIN | 2 | interrupt pin for edge detection | must be pin 2 or 3 on Arduino Nano |
 | EXTENDED_PULSE_PIN | 12 | output pin; pulse extended by two seconds | 5V, must shift to 3.5V |
 
-## Parts List Skull and Control Box
+## Parts List
+[Top](#skull\-project "Top")<br>
+There are several options for this build
+- which person sensor to use
+- one eye or two eyes
+- how to connect power to second eye
+
+The parts lists are divided up to reflect this.
+
+### Parts List Skull and Control Box
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
@@ -226,14 +235,14 @@ The following are the pin definitions for the pulse-extender Arduino Nano in the
 | 1/4" grommet | 190-piece rubber grommet kit | https://www.amazon.com/gp/product/B0C58WDLDZ | $0.05 |
 | Velcro | VELCRO Brand Industrial Fasteners Extreme Outdoor Weather Conditions Professional Grade Heavy Duty Strength Holds up to 15 lbs on Rough Surfaces, 4in x 1in (5pk), Strips, Gray | https://www.amazon.com/VELCRO-Brand-Industrial-Conditions-Professional/dp/B002YH1CCC | $1.00 |
 
-## Parts List PIR Sensor
+### Parts List PIR Sensor
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
 | PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
 | JST PH 2mm 3-Pin to socket | STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | https://www.adafruit.com/product/3894 | $1.25 |
 
-## Parts List Microwave Motion Sensor
+### Parts List Microwave Motion Sensor
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
@@ -242,7 +251,7 @@ The following are the pin definitions for the pulse-extender Arduino Nano in the
 | Arduino Nano | V3.0 ATmega328P 5V 16M CH340 Compatible to Arduino Nano V3 with 32Kbyte Flash (program storage), 2Kbyte SRAM, 1Kbyte EEPROM | https://www.aliexpress.com/item/32242048437.html | $1 |
 | 0.25W resistors | 3K and 7K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K00/1741418<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-6K98/14970 | $0.10 |
 
-## Parts List Optional 2nd Eye
+### Parts List Optional 2nd Eye
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
 | --- | --- | --- | --- |
