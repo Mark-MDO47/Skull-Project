@@ -215,7 +215,7 @@ The Arduino Nano is used to extend the microwave sensor pulse from the milliseco
 
 #### Pin Definitions Arduino Nano Pulse Extender
 [Top](#skull\-project "Top")<br>
-I gave up trying to make a circuit to edge-detect without a clock - too complicated! I just used one of my many old Arduino Nanos.
+I gave up trying to make a circuit to edge-detect without a clock from parts on hand - too complicated! And the RS D-type flip-flops that would do the job had long delivery times. I finally just used one of my many old Arduino Nanos.
 
 The following are the pin definitions for the pulse-extender Arduino Nano in the Microwave Person Sensor.
 
@@ -308,7 +308,7 @@ My comments are included regarding use with the HalloWing M4.
 | MOTION_SENSOR_PIN | A11 | A8 | All_Seeing_Skull.ino | turn on display backlight |
 | BLINK_PIN | 1 | N/A | config.h | do not want; use AUTOBLINK |
 
-### Not Using Doppler Radar - RCWL-0516
+### RCWL-0516 Doppler Radar - RCWL-0516 Not Used
 [Top](#skull\-project "Top")<br>
 This doesn't seem to work well outside, so I won't be using it on this project. If more details are desired see the following
 - https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md
