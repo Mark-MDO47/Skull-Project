@@ -16,6 +16,7 @@ Youtube: https://youtu.be/qxJXeUGvmBE
   * [Eyeball - HalloWing M4 Express](#eyeball-\--hallowing-m4-express "Eyeball - HalloWing M4 Express")
   * [PIR Infrared Motion Person Sensor](#pir-infrared-motion-person-sensor "PIR Infrared Motion Person Sensor")
   * [Microwave Motion Person Sensor](#microwave-motion-person-sensor "Microwave Motion Person Sensor")
+  * [Control Box](#control-box "Control Box")
 * [Software](#software "Software")
   * [Software HalloWing M4](#software-hallowing-m4 "Software HalloWing M4")
   * [Software Arduino Nano PulseExtender](#software-arduino-nano-pulseextender "Software Arduino Nano PulseExtender")
