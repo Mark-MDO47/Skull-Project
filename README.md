@@ -223,7 +223,7 @@ My comments are included regarding use with the Hallowing M4.
 | Batteries | 4 Pack 3.7 Volt Button Top Rechargeable Batteries and 18650 Battery Charger,Lithium Battery 4000mAh (Battery and Charger) | https://www.amazon.com/gp/product/B0CP6V26QX | $25 |
 | Battery Holder | 5pcs 18650 Battery Holder 2 Slot 3.7V 18650 Battery Clip Holder Box Storage Case with Soldering Pin Copper Contacts | https://www.amazon.com/gp/product/B09LC13D9P | $2.60 |
 | UBEC 5V 3A | 5V/6V Hobbywing 3A UBEC Max 5A |https://www.aliexpress.us/item/3256805502614547.html | $1.50 |
-| M USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
+| USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
 | 12mm button switches LED | 5Pcs 12mm Metal Raised Head Latching Push Button Switch Waterproof Anti-Vandal Silver Shell with 15cm Cable 12V-24V 1NO ON/Off for 1/2" Mounting Hole with Halo Ring Red LED | https://www.amazon.com/dp/B0BJCMDGK2 | $2.65 |
 | 7/16 washer | 7/16" Flat Washer, 18-8 (304) Stainless Steel Washers Flat, 7/16 inch Stainless Flat Washers, 80 PCS | https://www.amazon.com/gp/product/B0CM3MCY27 | $0.11 |
 | DPDT Knife Switch | QWORK Educational Double Pole Cutter Switch, Double Throw Electrical Switch, 4 Pack Premium Electrical Switches with Excellent Safety and Durability for Multiple Applications | https://www.amazon.com/gp/product/B0CH7X6CJG | $3.85 |
@@ -260,7 +260,7 @@ My comments are included regarding use with the Hallowing M4.
 | **One** | **Or** | **The** | **Other** |
 | *** | *** | *** | *** |
 | 4Pin JST PH 2mm | STEMMA Cable - 4 Pin JST-PH 2mm Cable–Female/Female - 150mm/6" Long | https://www.adafruit.com/product/3568 | $0.75 |
-| M USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
+| USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
 
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
