@@ -149,6 +149,18 @@ The PIR sensor will run succesfully with the HalloWing M4 powered by USB and the
 Note that there is an option to use the 4Pin JST cable between the I2C sockets on both HalloWing boards for the optional second eye. This method would remove the need for the power and ground connection to second eye USB shown in this schematic.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0.png" width="600" alt="schematic of skull project version 1.0">
 
+#### Pin Definitions HalloWing M4 mdo_m4_eyes - Code That Was Used
+[Top](#skull\-project "Top")<br>
+The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes from directory **mdo_m4_skull_project**. mdo_m4_skull_project.ino is just a copy of M4_Eyes.ino renamed so I can use it from this directory.
+
+| Pin Name | M0 | M4 | Definition | Comment |
+| --- | --- | --- | --- | --- |
+| MOTION_SENSOR_PIN | A11 | A8 | mdo_skull_project.cpp | sense when to turn on display backlight |
+| DISPLAY_FORCE_ON_LED | 5 | 5 | mdo_skull_project.cpp | output to button LED to say backlight forced on |
+| DISPLAY_FORCE_ON | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on<br> OR optional 2nd eye turn display on |
+| SCNDEYE_DSPLY_ON | 9 TBR | 9 | mdo_skull_project.cpp | output to optional 2nd eye to turn display on |
+| SCNDEYE_1ST_EYE | 10 TBR | 10 | mdo_skull_project.cpp | input with internal pullup: HIGH if primary eye |
+
 ### Circuit for Infrared Person Motion Sensor for One Eye Build
 [Top](#skull\-project "Top")<br>
 The "PIR" sensor needs a clear view and looks a bit like a milky eye so it is used as the 2nd eye.<br>
@@ -165,19 +177,7 @@ The Microwave sensor can go through plastic so can be mounted invisibly inside, 
 The Arduino Nano is used to extend the microwave sensor pulse from the millisecond range to the two second range. This makes it easy for the busy HalloWing in the primary eye to detect the pulse.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_mwave_PersonSensor.png" width="300" alt="schematic of skull project version 1.0 microwave person sensor">
 
-### Pin Definitions HalloWing M4 mdo_m4_eyes - Code That Was Used
-[Top](#skull\-project "Top")<br>
-The following are the pins that I added to the M4 code in https://github.com/Mark-MDO47/mdo_m4_eyes from directory **mdo_m4_skull_project**. mdo_m4_skull_project.ino is just a copy of M4_Eyes.ino renamed so I can use it from this directory.
-
-| Pin Name | M0 | M4 | Definition | Comment |
-| --- | --- | --- | --- | --- |
-| MOTION_SENSOR_PIN | A11 | A8 | mdo_skull_project.cpp | sense when to turn on display backlight |
-| DISPLAY_FORCE_ON_LED | 5 | 5 | mdo_skull_project.cpp | output to button LED to say backlight forced on |
-| DISPLAY_FORCE_ON | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on<br> OR optional 2nd eye turn display on |
-| SCNDEYE_DSPLY_ON | 9 TBR | 9 | mdo_skull_project.cpp | output to optional 2nd eye to turn display on |
-| SCNDEYE_1ST_EYE | 10 TBR | 10 | mdo_skull_project.cpp | input with internal pullup: HIGH if primary eye |
-
-### Pin Definitions Arduino Nano Pulse Extender
+#### Pin Definitions Arduino Nano Pulse Extender
 [Top](#skull\-project "Top")<br>
 I gave up trying to make a circuit to edge-detect without a clock - too complicated! I just used one of my many old Arduino Nanos.
 
@@ -188,7 +188,7 @@ The following are the pin definitions for the pulse-extender Arduino Nano in the
 | INTERRUPT_PIN | 2 | interrupt pin for edge detection | must be pin 2 or 3 on Arduino Nano |
 | EXTENDED_PULSE_PIN | 12 | output pin; pulse extended by two seconds | 5V, must shift to 3.5V |
 
-### Confusion - M4 FeatherWing connector Ground pins
+#### Confusion - M4 FeatherWing connector Ground pins
 [Top](#skull\-project "Top")<br>
 There is a discrepancy on GND pins between the M4 pinouts diagram and the M4 schematic
 - https://github.com/adafruit/Adafruit-Hallowing-M4-PCB/blob/master/Adafruit%20HalloWing%20M4%20Pinout.pdf
