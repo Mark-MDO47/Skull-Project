@@ -16,8 +16,8 @@
 // All the scope traces from the sensor looked longer than 2 millisec pulses
 //
 // The purpose of this is to extend the pulse from the sensor to at least 2 seconds.
-// This will allow the Hallowing to easily see the pulse. https://www.adafruit.com/product/4300
-// The Hallowing has code with a separate time extension; it uses this extended pulse along with
+// This will allow the HalloWing to easily see the pulse. https://www.adafruit.com/product/4300
+// The HalloWing has code with a separate time extension; it uses this extended pulse along with
 //    its own time extension to turn the LED backlight of the Eye(s) on/off interactively.
 // The goal is to have the Eye(s) turn on unexpectedly as children approach on Halloween and
 //    then have timeouts that make it somewhat interactive with them as they are closer
@@ -26,8 +26,8 @@
 
 #define EXTENDED_MILLISEC 2000 // milliseconds to extend pulse
 
-#define INTERRUPT_PIN           2 // interrupt pin for edge detection; for Nano must be pin 2 or 3
-#define EXTENDED_PULSE_PIN     12 // output pin; pulse extended by EXTENDED_MILLISEC
+#define INTERRUPT_PIN       2 // interrupt pin for edge detection; for Nano must be pin 2 or 3
+#define EXTENDED_PULSE_PIN 12 // output pin; pulse extended by EXTENDED_MILLISEC
 
 volatile byte input_changed = 0; // if more than one byte then must disable interrupts
 
