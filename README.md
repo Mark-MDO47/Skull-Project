@@ -156,7 +156,7 @@ Here from today's version of the code:
 
 ## Power
 [Top](#skull\-project "Top")<br>
-The PIR sensor uses 5V-to-12V power while the Microwave sensor specs 5V + 0.25V, so I will go with 7.4V-8.0V battery to a UBEC to 5V through the USB into the HalloWing; the M4 version (at least) will pass the 5V on through to the either sensor.
+The PIR sensor uses 5V-to-12V power while the Microwave sensor specs 5V + 0.25V, so I will go with 7.4V-8.0V battery to a UBEC to 5V through the USB into the HalloWing; the M4 version (at least) will pass the 5V on through to either sensor.
 
 The USB standard specifies a Vbus range of 4.75V to 5.25V.
 - Measuring the output from plugged into PC I see 5.1V
