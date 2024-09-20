@@ -169,6 +169,7 @@ Note that there is an option to use the 4Pin JST cable between the I2C sockets o
 ### Circuit for Microwave Person Motion Sensor for Two Eye Build
 [Top](#skull\-project "Top")<br>
 The Microwave sensor can go through plastic so can be mounted invisibly inside, allowing use of both eyes.<br>
+The Arduino Nano is used to extend the microwave sensor pulse from the millisecond range to the two second range. This makes it easy for the busy Hallowing in the primary eye to detect the pulse.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_mwave_PersonSensor.png" width="300" alt="schematic of skull project version 1.0 microwave person sensor">
 
 ### Pin Definitions Hallowing M4 mdo_m4_eyes - Code That Was Used
