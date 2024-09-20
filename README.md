@@ -160,9 +160,15 @@ Note that there is an option to use the 4Pin JST cable between the I2C sockets o
 Note that there is an option to use the 4Pin JST cable between the I2C sockets on both HalloWing boards for the optional second eye. This method would remove the need for the power and ground connection to second eye USB shown in this schematic.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_2ndEye.png" width="300" alt="schematic of skull project version 1.0 optional 2nd eye">
 
-### Circuit for Person Motion Sensors
+### Circuit for Infrared Person Motion Sensor for One Eye Build
 [Top](#skull\-project "Top")<br>
+The "PIR" sensor needs a clear view and looks a bit like a milky eye so it is used as the 2nd eye.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_PersonSensors.png" width="300" alt="schematic of skull project version 1.0 person sensors">
+
+### Circuit for Microwave Person Motion Sensor for Two Eye Build
+[Top](#skull\-project "Top")<br>
+The Microwave sensor can go through plastic so can be mounted invisibly inside, allowing use of both eyes.<br>
+<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_mwave_PersonSensors.png" width="300" alt="schematic of skull project version 1.0 person sensors">
 
 ### Pin Definitions Hallowing M4 mdo_m4_eyes - Code That Was Used
 [Top](#skull\-project "Top")<br>
