@@ -235,15 +235,6 @@ The parts lists are divided up to reflect this.
 | PIR sensor | PIR (motion) sensor | https://www.adafruit.com/product/189 | $10 |
 | JST PH 2mm 3-Pin to socket | STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | https://www.adafruit.com/product/3894 | $1.25 |
 
-### Parts List Microwave Motion Sensor
-[Top](#skull\-project "Top")<br>
-| Title | Descrip | URL | each |
-| --- | --- | --- | --- |
-| Microwave sensor | Gravity: Digital 10.525GHz Microwave Sensor (Motion Detection) SEN0192 | https://www.dfrobot.com/product-1403.html | $9 |
-| JST PH 2mm 3-Pin to male | STEMMA JST PH 2mm 3-Pin to Male Header Cable - 200mm | https://www.adafruit.com/product/3895 | $1.25 |
-| Arduino Nano | V3.0 ATmega328P 5V 16M CH340 Compatible to Arduino Nano V3 with 32Kbyte Flash (program storage), 2Kbyte SRAM, 1Kbyte EEPROM | https://www.aliexpress.com/item/32242048437.html | $1 |
-| 0.25W resistors | 3K and 7K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K00/1741418<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-6K98/14970 | $0.10 |
-
 ### Parts List Optional 2nd Eye
 [Top](#skull\-project "Top")<br>
 | Title | Descrip | URL | each |
@@ -257,6 +248,15 @@ The parts lists are divided up to reflect this.
 | *** | *** | *** | *** |
 | 4Pin JST PH 2mm | STEMMA Cable - 4 Pin JST-PH 2mm Cable–Female/Female - 150mm/6" Long | https://www.adafruit.com/product/3568 | $0.75 |
 | USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
+
+### Parts List Microwave Motion Sensor
+[Top](#skull\-project "Top")<br>
+| Title | Descrip | URL | each |
+| --- | --- | --- | --- |
+| Microwave sensor | Gravity: Digital 10.525GHz Microwave Sensor (Motion Detection) SEN0192 | https://www.dfrobot.com/product-1403.html | $9 |
+| JST PH 2mm 3-Pin to male | STEMMA JST PH 2mm 3-Pin to Male Header Cable - 200mm | https://www.adafruit.com/product/3895 | $1.25 |
+| Arduino Nano | V3.0 ATmega328P 5V 16M CH340 Compatible to Arduino Nano V3 with 32Kbyte Flash (program storage), 2Kbyte SRAM, 1Kbyte EEPROM | https://www.aliexpress.com/item/32242048437.html | $1 |
+| 0.25W resistors | 3K and 7K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K00/1741418<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-6K98/14970 | $0.10 |
 
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
