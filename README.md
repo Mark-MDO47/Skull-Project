@@ -294,7 +294,7 @@ There is also an "M0" version with a lower resolution display, but still beautif
 
 For this project I decided to just use the more capable M4 version, but left some information about the differences with the M0 in case I want to build another.
 
-### Pin Definitions All_Seeing_Skull - Code Not Used
+### Pin Definitions All_Seeing_Skull - M0 Code Not Used
 [Top](#skull\-project "Top")<br>
 The pin numbers as defined in the AdaFruit All_Seeing_Skull project for the HalloWing M0.<br>
 My comments are included regarding use with the HalloWing M4.
