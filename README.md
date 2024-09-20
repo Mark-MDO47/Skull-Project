@@ -90,7 +90,8 @@ It has a potentiometer adjustment for sensitivity so it can be tuned for distanc
 
 ## Software
 [Top](#skull\-project "Top")<br>
-See these for the code used in this project:
+### Software Hallowing M4
+See these for the Hallowing code used in this project:
 | Descrip | URL |
 | --- | --- |
 | How to load/initialize the M4 | https://github.com/Mark-MDO47/expts_HallowingM4 |
@@ -101,6 +102,31 @@ See these for the code used in this project:
 For this project I decided to just use the more capable Hallowing M4 version (see **mdo_m4_eyes** above), but kept some information here about the differences with the M0 in case I want to build one with the M0.
 
 The software can use the PIR sensor to turn the eye backlight on when it detects movement. There is a pushbutton that can toggle between having the backlight always-on or having the backlight depend on the PIR sensor. This button has an LED that is lit when the mode is always-on.
+
+### Software Arduino Nano PulseExtender
+[Top](#skull\-project "Top")<br>
+The code to use an Arduino Nano to extend the pulse of the Microwave Motion Sensor is here
+- https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/PulseExtender/PulseExtender.ino
+
+Here from today's version of the code:
+```C
+// I have been programming Arduinos since 2016 and this is the first time
+//    I was tempted to use interrupts. This code could have been done with
+//    a fast polling loop, but...
+//
+// The delivery time on parts I needed to do a hardware pulse extension was too long.
+// I had lots of Arduino Nano hanging around and they were 5V inputs/outputs which
+//    matched the Microwave sensor https://www.dfrobot.com/product-1403.html
+// All the scope traces from the sensor looked longer than 2 millisec pulses
+//
+// The purpose of this is to extend the pulse from the sensor to at least 2 seconds.
+// This will allow the Hallowing to easily see the pulse. https://www.adafruit.com/product/4300
+// The Hallowing has code with a separate time extension; it uses this extended pulse along with
+//    its own time extension to turn the LED backlight of the Eye(s) on/off interactively.
+// The goal is to have the Eye(s) turn on unexpectedly as children approach on Halloween and
+//    then have timeouts that make it somewhat interactive with them as they are closer
+//    and yet allow the eyes to be watched.
+```
 
 ## Power
 [Top](#skull\-project "Top")<br>
