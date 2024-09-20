@@ -48,7 +48,9 @@ Kudos to Adafruit for their continuing work on the "Uncanny Eyes" project and sp
 
 I am making a build of the hallowing-all-seeing-skull using the HalloWing M4 Express.
 - I was going to substitute the **RCWL-0516** Doppler Radar for the PIR Sensor but decided it wasn't a good choice for outdoor use.
-- see https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md if you are interested in the reasoning.
+  - See https://github.com/Mark-MDO47/Skull-Project/blob/master/RCWL-0516/README.md if you are interested in the reasoning.
+- I went back to using the **PIR** infrared sensor, but this meant having only one HalloWing eyeball.
+- Later I found another inexpensive **Microwave** motion detector for a two-eyeball version.
 
 ### Skull
 [Top](#skull\-project "Top")<br>
