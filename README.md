@@ -143,7 +143,8 @@ Here from today's version of the code:
 //    matched the Microwave sensor https://www.dfrobot.com/product-1403.html
 // All the scope traces from the sensor looked longer than 2 millisec pulses
 //
-// The purpose of this is to extend the pulse from the sensor to at least 2 seconds.
+// The purpose of this is to extend the pulse from the sensor until at least 2 seconds
+//     without any input activity.
 // This will allow the HalloWing to easily see the pulse. https://www.adafruit.com/product/4300
 // The HalloWing has code with a separate time extension; it uses this extended pulse along with
 //    its own time extension to turn the LED backlight of the Eye(s) on/off interactively.
