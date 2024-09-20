@@ -26,8 +26,8 @@
 
 #define EXTENDED_MILLISEC 2000 // milliseconds to extend pulse
 
-#define INTRPT_PIN           2 // interrupt pin for edge detection; for Nano must be pin 2 or 3
-#define EXTENDED_PULSE_PIN  12 // output pin; pulse extended by EXTENDED_MILLISEC
+#define INTERRUPT_PIN           2 // interrupt pin for edge detection; for Nano must be pin 2 or 3
+#define EXTENDED_PULSE_PIN     12 // output pin; pulse extended by EXTENDED_MILLISEC
 
 volatile byte input_changed = 0; // if more than one byte then must disable interrupts
 
@@ -58,7 +58,7 @@ void interrupt_routine_set() {
 //
 void setup() {
   pinMode(EXTENDED_PULSE_PIN, OUTPUT);
-  attachInterrupt(digitalPinToInterrupt(INTRPT_PIN), interrupt_routine_set, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(INTERRUPT_PIN), interrupt_routine_set, CHANGE);
 
   // initial state as if interrupt_routine_set() was called
   // this will cause Eye(s) to be on for a while when powered on
