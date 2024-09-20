@@ -152,10 +152,12 @@ The PIR sensor will run succesfully with the HalloWing M4 powered by USB and the
 
 ### Circuit for Skull and Control Box
 [Top](#skull\-project "Top")<br>
+Note that there is an option to use the 4Pin JST cable between the I2C sockets on both HalloWing boards for the optional second eye. This method would remove the need for the power and ground connection to second eye USB shown in this schematic.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0.png" width="600" alt="schematic of skull project version 1.0">
 
 ### Circuit for Optional 2nd Eye
 [Top](#skull\-project "Top")<br>
+Note that there is an option to use the 4Pin JST cable between the I2C sockets on both HalloWing boards for the optional second eye. This method would remove the need for the power and ground connection to second eye USB shown in this schematic.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/schematic_Skull-Project_1.0_2ndEye.png" width="300" alt="schematic of skull project version 1.0 optional 2nd eye">
 
 ### Circuit for Person Motion Sensors
