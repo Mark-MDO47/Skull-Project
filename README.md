@@ -88,25 +88,25 @@ The PIR sensor is an infrared motion detector; it is used in the one-eye build s
 
 It turns out that the plastic cover on the PIR sensor is actually a fresnel lens for infrared and not just protection or decoration. This unit has a lens of a size that should fit well in the skull eye-socket.
 
-It has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions. There is min/max indications on the board.
+It has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions. There min/max indications are on the board. The potentiometer is on the rear of the sensor but unfortunately is in an awkward position to manipulate when the skull is assembled, so the sensor will probably need to be removed to adjust it.
 
 ### Microwave Motion Person Sensor
 [Top](#skull\-project "Top")<br>
 The microwave motion person sensor can detect motion through the plastic of the skull so can be mounted invisibly inside. It is used for the two-eye build.
 -  https://www.dfrobot.com/product-1403.html
 
-This also has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions. Counter-clockwise to increase sensitivity.
+This also has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions. Counter-clockwise to increase sensitivity. Unfortunately the potentiometer is on the front of the sensor so the sensor will definitely need to be removed to adjust it.
 
 When detecting motion, it generates data pulses that can be as short as 2 to 5 milliseconds according to my measurements. To prevent extra work in the busy HalloWing, I added an Arduino Nano to act as a pulse extender. The Nano also inverts the sense of the signal to match the PIR sensor. There is a resistor voltage divider to level shift the output to 3.5 Volts.
 - TLDR - this is the first time I ever used interrupts in Arduino code.
 
 ### Control Box
 [Top](#skull\-project "Top")<br>
-I made a control box so the skull didn't need to be manipulated to change the batteries.
+I made a control box so the skull doesn't need to be manipulated to change the batteries. Also lowers the weight of the assembled skull.
 
 The box is an appropriately orange cardboard box that some of my parts were delivered in.
 
-It has an on/off DPDT knife switch I had laying around - best looking one I had. The parts list has one that doesn't look quite so mad-scientisty; sorry, best I can find. Even though I used a DPDT, I am only using one side of it. The rest is for the Halloweeny look of it.
+It has an on/off DPDT knife switch I had laying around - most Frankenstein-ish one I had. I cannot find a place to buy a second one now so the parts list shows one that doesn't look quite so mad-scientisty. Even though I used a DPDT, I am only using one side of it today. The rest is for the Halloweeny look of it.
 
 It also has a push button with LED to control whether the backlight for the LED should depend on the person sensor or just stay on all the time. If the push putton LED is lit, the backlight will stay on all the time.
 - TLDR - The push buttons had a tendency to push through the hole in the cardboard. I couldn't locate a washer that worked for the 16mm version of the push button but the 12mm version fits well with a 7/16" flat washer. I learned a lot about washer sizes in this project.
@@ -135,9 +135,12 @@ The code to use an Arduino Nano to extend the pulse of the Microwave Motion Sens
 
 Here from today's version of the code:
 ```C
+// This code is loosely based on the example found in
+//     https://www.arduino.cc/reference/en/language/variables/variable-scope-qualifiers/volatile/
+//
 // I have been programming Arduinos since 2016 and this is the first time
 //    I was tempted to use interrupts. This code could have been done with
-//    a fast polling loop, but...
+//    a fast polling loop, but... what would be the fun in that?
 //
 // The delivery time on parts I needed to do a hardware pulse extension was too long.
 // I had lots of Arduino Nano hanging around and they were 5V inputs/outputs which
