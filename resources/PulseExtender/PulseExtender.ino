@@ -3,12 +3,12 @@
 // Date:    2024-09-18
 // License: MIT
 //
-// This code is loosely based on
+// This code is loosely based on the example found in
 //     https://www.arduino.cc/reference/en/language/variables/variable-scope-qualifiers/volatile/
 //
 // I have been programming Arduinos since 2016 and this is the first time
 //    I was tempted to use interrupts. This code could have been done with
-//    a fast polling loop, but...
+//    a fast polling loop, but... what would be the fun in that?
 //
 // The delivery time on parts I needed to do a hardware pulse extension was too long.
 // I had lots of Arduino Nano hanging around and they were 5V inputs/outputs which
