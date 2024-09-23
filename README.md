@@ -124,7 +124,7 @@ See these for the HalloWing code used in this project:
 
 For this project I decided to just use the more capable HalloWing M4 version (see **mdo_m4_eyes** above), but kept some information here about the differences with the M0 in case I want to build one with the M0.
 
-The software can use the either the PIR sensor or the Microwave sensor to turn the eye backlight on when it detects movement. There is a pushbutton that can toggle between having the backlight always-on or having the backlight depend on the PIR sensor. This button has an LED that is lit when the mode is always-on.
+The software can use the either the PIR sensor or the Microwave sensor to turn the eye backlight on when it detects movement. There is a pushbutton that can toggle between forcing the backlight always-on or having the backlight depend on the PIR sensor. This button has an LED that is lit when the mode is forcing always-on.
 
 If a certain pin on the HalloWing is grounded, it knows it is the second eye and that the first eye will tell it when to turn the backlight on and off. I have a spousal request to make the eyes NOT coordinate their movement so I will work on that.
 
