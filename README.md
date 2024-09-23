@@ -118,7 +118,7 @@ See these for the HalloWing code used in this project:
 | Descrip | URL |
 | --- | --- |
 | How to load/initialize the M4 | https://github.com/Mark-MDO47/expts_HallowingM4 |
-| Where I develop the M4 code for this and other projects, forked from AdaFruit | https://github.com/Mark-MDO47/mdo_m4_eyes |
+| Where I develop the M4 code for this and other projects, forked from AdaFruit.<br>Code for this project is in directory mdo_m4_skull_project; bulk of my mods in mdo_skull_project.cpp | https://github.com/Mark-MDO47/mdo_m4_eyes |
 | Teensy and M0 code, forked from AdaFruit | https://github.com/Mark-MDO47/Uncanny_Eyes |
 | How to expand with AI | https://github.com/Mark-MDO47/HalloweenEyes |
 
