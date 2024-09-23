@@ -92,7 +92,7 @@ It has a potentiometer adjustment for sensitivity so it can be tuned for distanc
 
 ### Microwave Motion Person Sensor
 [Top](#skull\-project "Top")<br>
-The microwave motion person sensor can detect motion through the plastic of the skull so can be mounted invisibly inside. It is used for the two-eye build.
+The microwave motion person sensor can detect motion through the plastic of the skull so can be mounted invisibly inside. It is used for the two-eye build. The documentation states that it is "Low output, unharmful to human"; I think they are talking about the RF output.
 -  https://www.dfrobot.com/product-1403.html
 
 This also has a potentiometer adjustment for sensitivity so it can be tuned for distance and local weather conditions. Counter-clockwise to increase sensitivity. Unfortunately the potentiometer is on the front of the sensor so the sensor will definitely need to be removed to adjust it.
@@ -165,7 +165,13 @@ The USB standard specifies a Vbus range of 4.75V to 5.25V.
 - Measuring the output from plugged into PC I see 5.1V
 - Measuring the output of my UBEC I see 5.6V.
 - Measured at the end of the 12 foot cable USB interface with no load I see 5.3V.
-- With USB connected to a PC the measured voltage output from the sensor connector is 4.7V.
+
+The Voltage measured at the Hallowing Sensor connector is as follows
+- No Load
+  - USB PC: 4.6V
+  - Control Box & UBEC 12 ft. to Hallowing USB: 4.7V.
+- Load of Microwave Motion Sensor and Arduino Nano
+  - Control Box & UBEC 12 ft. to Hallowing USB: 4.8V
 
 The Adafruit documents say that when using the USB Micro-B connector to power the HalloWing, leave the ID and data pins floating.
 
