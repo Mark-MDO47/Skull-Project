@@ -299,6 +299,18 @@ The parts lists are divided up to reflect this.
 | Arduino Nano | V3.0 ATmega328P 5V 16M CH340 Compatible to Arduino Nano V3 with 32Kbyte Flash (program storage), 2Kbyte SRAM, 1Kbyte EEPROM | https://www.aliexpress.com/item/32242048437.html | $1 |
 | 0.25W resistors | 3K and 7K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K00/1741418<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-6K98/14970 | $0.10 |
 
+## Build Notes
+[Top](#skull\-project "Top")<br>
+Here are some random notes about building the skull.
+
+### 2-Eye Skull Internal Harness
+[Top](#skull\-project "Top")<br>
+Things start to get a little crowded with two Hallowing M4s, a Gravity Microwave sensor, and an Arduino Nano. Also the required connections branch out to multiple locations. 
+- I drew out the circuit in a more physical way so I could keep track of what went where and about how much slack I would need
+- After (finally) achieving a working first harness, I took some measurements so the second one would be easier.
+
+
+
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
 
