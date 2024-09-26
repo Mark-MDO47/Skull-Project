@@ -35,6 +35,8 @@ Youtube: https://youtu.be/qxJXeUGvmBE
   * [Parts List PIR Sensor](#parts-list-pir-sensor "Parts List PIR Sensor")
   * [Parts List Optional 2nd Eye](#parts-list-optional-2nd-eye "Parts List Optional 2nd Eye")
   * [Parts List Microwave Motion Sensor](#parts-list-microwave-motion-sensor "Parts List Microwave Motion Sensor")
+* [Build Notes](#build-notes "Build Notes")
+  * [2-Eye Skull Internal Harness](#2\-eye-skull-internal-harness "2-Eye Skull Internal Harness")
 * [Not Using for This project](#not-using-for-this-project "Not Using for This project")
   * [Eyeball - HalloWing M0 Express - M0 not used](#eyeball-\--hallowing-m0-express-\--m0-not-used "Eyeball - HalloWing M0 Express - M0 not used")
   * [Pin Definitions All_Seeing_Skull - M0 Code Not Used](#pin-definitions-all_seeing_skull-\--m0-code-not-used "Pin Definitions All_Seeing_Skull - M0 Code Not Used")
