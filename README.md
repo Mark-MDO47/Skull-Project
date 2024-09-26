@@ -311,7 +311,11 @@ Things start to get a little crowded with two Hallowing M4s, a Gravity Microwave
 - I drew out the circuit in a more physical way so I could keep track of what went where and about how much slack I would need
 - After (finally) achieving a working first harness, I took some measurements so the second one would be easier.
 
+Here is the block diagram in rough physical position for the two-eye Skull.<br>
+<img src="" width="600" alt="Block Diagram of internal wiring for two-eye Skull">
 
+Here are the build notes and hints for the internal wiring harness for the two-eye Skull.<br>
+<img src="" width="600" alt="Harness build hints of internal wiring for two-eye Skull">
 
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
