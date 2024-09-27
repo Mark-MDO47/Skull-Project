@@ -168,16 +168,30 @@ The USB standard specifies a Vbus range of 4.75V to 5.25V.
 - Measuring the output of my UBEC I see 5.6V.
 - Measured at the end of the 12 foot cable USB interface with no load I see 5.3V.
 
-The Voltage measured at the Hallowing Sensor connector is as follows
+The Voltage measured at the HalloWing Sensor connector is as follows
 - No Load
   - USB PC: 4.6V
-  - Control Box & UBEC 12 ft. to Hallowing USB: 4.7V.
+  - Control Box & UBEC 12 ft. to HalloWing USB: 4.7V.
 - Load of Microwave Motion Sensor and Arduino Nano
-  - Control Box & UBEC 12 ft. to Hallowing USB: 4.8V
+  - Control Box & UBEC 12 ft. to HalloWing USB: 4.8V
 
 The Adafruit documents say that when using the USB Micro-B connector to power the HalloWing, leave the ID and data pins floating.
 
 The LED on the latching button switch works with 3.3V I/O output from the HalloWing even though the switch is rated at 24V - that simplifies things greatly!
+
+### Surprise - Two-Eye Version Usually Powers Up Wrong
+[Top](#skull\-project "Top")<br>
+The full-up circuit with two eyes connected via the I2C interface with a four-wire cable, a pulse extender, and the Gravity Microwave Sensor usually powers up in a state where the primary eye never becomes visible. The secondary eye does power up normally. I think it is due to the power-draw through the primary HalloWing during power-up. To confirm this I did an experiment.
+| # Power-Ons | # Success | Condition |
+| --- | --- | --- |
+| 6 | 1 | Full-up circuit |
+| 6 | 4 | Just 2 HalloWing |
+
+In the case where it powers-up with the primary eye not displaying, pressing the reset button on the primary HalloWing makes everything work correctly.
+
+The reset works by grounding the pin. I came up with a circuit where the 5V Arduino uses the output-enable on my favorite SN74HCT125 quad-buffer to either ground the output (to the primary Hallowing reset) or put it in high-impedance state, but this would require a rework of the harness.
+
+I realized that the secondary Hallowing is already a 3.5V device so it could perform this function. I can connect the output to the primary Hallowing using a standard Dupont connector cable with no harness re-work. Also this gives me an easy way to make the two eyes not follow each other exactly, a spousal request.
 
 ## Circuit
 [Top](#skull\-project "Top")<br>
@@ -307,7 +321,7 @@ Here are some random notes about building the skull.
 
 ### 2-Eye Skull Internal Harness
 [Top](#skull\-project "Top")<br>
-Things start to get a little crowded with two Hallowing M4s, a Gravity Microwave sensor, and an Arduino Nano. Also the required connections branch out to multiple locations. 
+Things start to get a little crowded with two HalloWing M4s, a Gravity Microwave sensor, and an Arduino Nano. Also the required connections branch out to multiple locations. 
 - I drew out the circuit in a more physical way so I could keep track of what went where and about how much slack I would need
 - After (finally) achieving a working first harness, I took some measurements so the second one would be easier.
 
