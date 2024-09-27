@@ -131,6 +131,9 @@ The software can use the either the PIR sensor or the Microwave sensor to turn t
 
 If a certain pin on the HalloWing is grounded, it knows it is the second eye and that the first eye will tell it when to turn the backlight on and off. I have a spousal request to make the eyes NOT coordinate their movement so I will work on that.
 
+To solve the issue of the [primary HalloWing not powering up correctly in the two-eye build](#surprise-\--two\-eye-version-usually-powers-up-wrong "primary HalloWing not powering up correctly in the two-eye build"), the secondary HalloWing will reset the primary HalloWing some time after startup. I am thinking maybe 5 seconds so the two eyes appear to move independently.
+
+
 ### Software Arduino Nano PulseExtender
 [Top](#skull\-project "Top")<br>
 The code to use an Arduino Nano to extend the pulse of the Microwave Motion Sensor is here
