@@ -212,7 +212,7 @@ The following are the pins that I added to the M4 code in https://github.com/Mar
 | Pin Name | M0 | M4 | Definition | Comment |
 | --- | --- | --- | --- | --- |
 | MOTION_SENSOR_PIN | A11 | A8 | mdo_skull_project.cpp | sense when to turn on display backlight |
-| DISPLAY_FORCE_ON_LED_PIN | 5 | 5 | mdo_skull_project.cpp | output to button LED to say backlight forced on |
+| DISPLAY_FORCE_ON_LED_PIN | 5 | 5 | mdo_skull_project.cpp | output to button LED to say backlight forced on<br> OR optional 2nd eye reset primary eye after power-on |
 | DISPLAY_FORCE_ON_PIN | 6 | 6 | mdo_skull_project.cpp | input from button to enable/disable backlight forced on<br> OR optional 2nd eye turn display on |
 | SCNDEYE_DSPLY_ON_PIN | 9 TBR | 9 | mdo_skull_project.cpp | output to optional 2nd eye to turn display on |
 | SCNDEYE_1ST_EYE_PIN | 10 TBR | 10 | mdo_skull_project.cpp | input with internal pullup: HIGH if primary eye |
