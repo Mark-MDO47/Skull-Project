@@ -306,11 +306,7 @@ The parts lists are divided up to reflect this.
 | Plastic lens skull | Convex Plastic Lens with Edge - 40mm Diameter | https://www.adafruit.com/product/3917 | $4 |
 | lens holder skull | Clear Acrylic Lens Holder + Hardware Kit for HalloWing | https://www.adafruit.com/product/4013 | $3 |
 | miscellaneous | more Velcro, more cable ties, some standard M-M Dupont connectors | misc. | N/A |
-| *** | *** | *** | *** |
-| **One** | **Or** | **The** | **Other** |
-| *** | *** | *** | *** |
 | 4Pin JST PH 2mm | STEMMA Cable - 4 Pin JST-PH 2mm Cable–Female/Female - 150mm/6" Long | https://www.adafruit.com/product/3568 | $0.75 |
-| USB MicroB Breakout | 4pcs USB MicroB Plug Breakout board 5pin Male Connector Adapter Module Compatible with Arduino for Electronics Projects | https://www.amazon.com/dp/B09W2QHL2P | $2.50 |
 
 ### Parts List Microwave Motion Sensor
 [Top](#skull\-project "Top")<br>
