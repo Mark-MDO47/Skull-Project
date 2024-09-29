@@ -1,7 +1,7 @@
 # Skull-Project
 Halloween skull with displayed eye and person sensor
 
-Youtube of One-Eye Skull with infrared sensor: https://youtu.be/qxJXeUGvmBE
+Youtube of One-Eye Skull with infrared sensor: https://youtu.be/qxJXeUGvmBE<br>
 Youtube of Two-Eye Skull with microwave sensor: https://youtu.be/eQCltxQmgWQ
 
 | skull first light | control box | control box open |
