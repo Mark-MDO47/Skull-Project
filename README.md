@@ -1,13 +1,18 @@
 # Skull-Project
 Halloween skull with displayed eye and person sensor
 
-Youtube: https://youtu.be/qxJXeUGvmBE
+Youtube of One-Eye Skull with infrared sensor: https://youtu.be/qxJXeUGvmBE
+Youtube of Two-Eye Skull with microwave sensor: https://youtu.be/eQCltxQmgWQ
 
 | skull first light | control box | control box open |
 | --- | --- | --- |
 | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_prjct_first_light.jpg" width="200" alt="Image of skull project first time HalloWing is inserted"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Closed_3d_CableSide.jpg" width="200" alt="Image of skull project control box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/CB_Open_top.jpg" width="200" alt="Image of skull project control box open"> |
 | **1-eye skull and control box** | **inside view of 1-eye skull** | **joke of the day** |
-| <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullAndControlBox.png" width="200" alt="Assembled Skull and Control Box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullInside.png" width="200" alt="Inside view of Skull"> | Your Ad Here (just kidding...) |
+| <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullAndControlBox.png" width="200" alt="Assembled Skull and Control Box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/SkullInside.png" width="200" alt="Inside view of Skull"> | A skull and a skeleton<br>walked into a bar... |
+| **Assembled 2-eye Skull and Control Box** | **Inside view of 2-eye Skull** | **Deep inside view of 2-eye Skull** |
+| <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_2eye_view.png" width="200" alt="Assembled 2-eye Skull and Control Box"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_2eye_insideview.png" width="200" alt="Inside view of 2-eye Skull"> | <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/skull_2eye_insideview_deep.png" width="200" alt="Deep inside view of 2-eye Skull"> |
+
+
 
 **Table Of Contents**
 * [Top](#skull\-project "Top")
