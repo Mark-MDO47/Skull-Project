@@ -321,6 +321,8 @@ The parts lists are divided up to reflect this.
 | JST PH 2mm 3-Pin to socket | STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | https://www.adafruit.com/product/3894 | $1.25 |
 | Arduino Nano | V3.0 ATmega328P 5V 16M CH340 Compatible to Arduino Nano V3 with 32Kbyte Flash (program storage), 2Kbyte SRAM, 1Kbyte EEPROM | https://www.aliexpress.com/item/32242048437.html | $1 |
 | 0.25W resistors | 3K and 7K Ohm through-hole resistors | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K00/1741418<br>https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-6K98/14970 | $0.10 |
+| wooden shish kabob skewer | for mounting sensor in the scull; cut to size | https://www.amazon.com/Good-Cook-12-inch-Bamboo-Skewers/dp/B0028LRKJI | N/A |
+| miscellaneous | more Velcro, more cable ties, some standard M-M Dupont connectors | misc. | N/A |
 
 ## Build Notes
 [Top](#skull\-project "Top")<br>
