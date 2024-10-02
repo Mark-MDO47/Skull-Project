@@ -340,6 +340,12 @@ Here is the block diagram in rough physical position for the two-eye Skull.<br>
 Here are the build notes and hints for the internal wiring harness for the two-eye Skull.<br>
 <img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/Skull_2eye_internalWiring_harness.png" width="600" alt="Harness build hints of internal wiring for two-eye Skull">
 
+### Power Harness
+[Top](#skull\-project "Top")<br>
+I drilled a 5/16 inch hole in the base of the forward part of the skull and installed a 1/4" rubber grommet that just passes the four wires of the JST SM Plug 4Pin. A cable tie on the inside provides strain relief. I also used this approach on the Control Box. Thus the harness itself easily disconnects from both sides if desired for storage.
+
+I used silicone coated stranded 24 AWG for the two power wires and silicone coated stranded 30 AWG for the two signal wires. Small cable ties every 6 inches helps to keep it neat.
+
 ## Not Using for This project
 [Top](#skull\-project "Top")<br>
 
