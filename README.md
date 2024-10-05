@@ -1,8 +1,11 @@
 # Skull-Project
 Halloween skull with displayed eye and person sensor
 
+YouTube of two Two-Eye Skulls with microwave sensors and Halloween hats: https://youtu.be/NgvTc-DIEyQ<br>
 Youtube of One-Eye Skull with infrared sensor: https://youtu.be/qxJXeUGvmBE<br>
 Youtube of Two-Eye Skull with microwave sensor: https://youtu.be/eQCltxQmgWQ
+
+<img src="https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/images/TwoSkullsTwoHats_1024.jpg" width="800" alt="Two 2-eye Skulls and Control Boxes, one with Viking hat and one with Pirate hat">
 
 | skull first light | control box | control box open |
 | --- | --- | --- |
