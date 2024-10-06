@@ -142,6 +142,7 @@ If a certain pin on the HalloWing is grounded, it knows it is the second eye and
 
 To solve the issue of the [primary HalloWing not powering up correctly in the two-eye build](#surprise-\--two\-eye-version-usually-powers-up-wrong "primary HalloWing not powering up correctly in the two-eye build"), the secondary HalloWing will reset the primary HalloWing 7 seconds after startup. This also makes the two eyes appear as if they move independently.
 
+This seems to solve about 80% of the power-up problems but still sometimes it powers up with neither HalloWing operating correctly. For now, I just power off and then on again and it comes up. I think the capacitors on the boards are still partially powered after the power off/on; maybe that is why this works. A more thorough fix might happen in a later version of the skull project.
 
 ### Software Arduino Nano PulseExtender
 [Top](#skull\-project "Top")<br>
@@ -205,6 +206,8 @@ In the case where it powers-up with the primary eye not displaying, pressing the
 The reset works by grounding the pin. I came up with a circuit where the 5V Arduino uses the output-enable on my favorite SN74HCT125 quad-buffer to either ground the output (to the primary Hallowing reset) or put it in high-impedance state, but this would require a rework of the harness.
 
 I realized that the secondary Hallowing is already a 3.5V device so it could perform this function. I can connect the output to the primary Hallowing using a standard Dupont connector cable with no harness re-work. Also this gives me an easy way to make the two eyes not follow each other exactly, a spousal request.
+
+This seems to solve about 80% of the power-up problems but still sometimes it powers up with neither HalloWing operating correctly. For now, I just power off and then on again and it comes up. I think the capacitors on the boards are still partially powered after the power off/on; maybe that is why this works. A more thorough fix might happen in a later version of the skull project.
 
 NOTE: with the two HalloWing connected via the I2C cable and power coming in through the primary eye, the secondary eye will be on whether the on/off switch is on or off. Makes sense if you look at the schematic.
 
