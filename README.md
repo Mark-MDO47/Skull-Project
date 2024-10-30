@@ -209,7 +209,7 @@ I realized that the secondary Hallowing is already a 3.5V device so it could per
 
 This seems to solve about 80% of the power-up problems but still sometimes it powers up with neither HalloWing operating correctly. For now, I just power off and then on again and it comes up. I think the capacitors on the boards are still partially powered after the power off/on; maybe that is why this works. A more thorough fix might happen in a later version of the skull project.
 
-NOTE: with the two HalloWing connected via the I2C cable and power coming in through the primary eye, the secondary eye will be on whether the on/off switch is on or off. Makes sense if you look at the schematic.
+NOTE: with the two HalloWing connected via the I2C cable and power coming in through the primary eye, the secondary eye will be on whether the secondary HalloWing on/off switch is on or off. Makes sense if you look at the schematic.
 
 ## Circuit
 [Top](#skull\-project "Top")<br>
