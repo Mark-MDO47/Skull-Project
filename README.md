@@ -30,6 +30,7 @@ Youtube of Two-Eye Skull with microwave sensor: https://youtu.be/eQCltxQmgWQ
   * [Software HalloWing M4](#software-hallowing-m4 "Software HalloWing M4")
   * [Software Arduino Nano PulseExtender](#software-arduino-nano-pulseextender "Software Arduino Nano PulseExtender")
 * [Power](#power "Power")
+  * [Some Power Measurements](#some-power-measurements "Some Power Measurements")
   * [Surprise - Two-Eye Version Usually Powers Up Wrong](#surprise-\--two\-eye-version-usually-powers-up-wrong "Surprise - Two-Eye Version Usually Powers Up Wrong")
 * [Circuit](#circuit "Circuit")
   * [Circuit for Skull and Control Box](#circuit-for-skull-and-control-box "Circuit for Skull and Control Box")
