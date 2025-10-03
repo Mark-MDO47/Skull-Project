@@ -386,3 +386,6 @@ My comments are included regarding use with the HalloWing M4.
 This doesn't seem to work well outside, so I won't be using it on this project. If more details are desired see the following
 - https://github.com/Mark-MDO47/Skull-Project/blob/master/resources/RCWL-0516/README.md
 
+### Halloween Projections
+[Top](#skull\-project "Top")<br>
+The Hook Up - Projection decorations, MUCH easier than you think. - https://www.youtube.com/watch?v=T8LeMcXoj1A
